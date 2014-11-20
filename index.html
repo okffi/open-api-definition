@@ -4,133 +4,125 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Avoimen rajapinnan määritelmä by okffi</title>
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-
+    <div class="wrapper">
       <header>
         <h1>Avoimen rajapinnan määritelmä</h1>
         <p>Community governed definition of open API</p>
+
+        <p class="view"><a href="https://github.com/okffi/open-api-definition">View the Project on GitHub <small>okffi/open-api-definition</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/okffi/open-api-definition/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/okffi/open-api-definition/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/okffi/open-api-definition">View On <strong>GitHub</strong></a></li>
+        </ul>
       </header>
-
-      <div id="banner">
-        <span id="logo"></span>
-
-        <a href="https://github.com/okffi/open-api-definition" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/okffi/open-api-definition/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/okffi/open-api-definition/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
-
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
       <section>
-        <p>Version: 0.8</p>
+        <p>Tässä dokumentissa määritellään, mikä on avoin rajapinta. Täsmällistä määrittelyä tarvitaan esimerkiksi julkisissa tietojärjestelmähankinnoissa, joissa usein vaaditaan avoimia rajapintoja. Ilman määritelmää lähes mitä tahansa rajapintaa saatetaan kutsua avoimeksi, vaikka käytännössä rajapinnan dokumentaation saisi vain maksullisena tai pääsyä rajapintaan rajoitettaisiin sopimuksilla. Tilaajan ja toimittajan välisessä sopimuksessa pitää sopia siitä, että toimittajalla on velvollisuus tehdä sellainen rajapinta, jonka tilaaja voi halutessaan avata.</p>
+
+<p>Määritelmä itsessään ei ota kantaa siihen, missä tapauksissa avoin rajapinta kannattaa tehdä, vaan kertoo millainen on avoin rajapinta, jos sellainen halutaan. On olemassa myös hyviä ja huonoja avoimia rajapintoja aivan kuten on olemassa hyviä ja huonoja suljettuja rajapintoja. Esimerkiksi se, kuinka standardin mukaisia dataformaatteja ja tietorakenteita käytetään, on tärkeä kysymys rajapinnan hyödyllisyyttä arvioitaessa, mutta ei ole osa rajapinnan avoimuuden määritelmää. Kolmas tärkeä huomio on, että rajapinta voi olla avoin, vaikka sen kautta saatava data ei olisi avointa. Tämä määritelmä käsittelee rajapinnan avoimuutta, ei sisällön avoimuutta.
+Mahdollisuuksien mukaan suositus pyritään saamaan mukaan myös JHS-työhön ja julkishallinnon JIT -sopimusehtoihin.</p>
+
+<p><strong>Kirjoittajat</strong>
+Version 1.0 kirjoittamiseen ja kommentointiin ovat osallistuneet lukuisien anonyymien kommentaattoreiden lisäksi: Antti Poikola, Otso Kivekäs, Joni Kettunen, Teemu Polo, Sami Laine, Jukka Aaltonen, Jarkko Moilanen, Jaakko Korhonen ja Mika Honkanen, Otto Kekäläinen, Martin von Willebrand.</p>
+
+<p><strong>Määritelmän tukijat</strong>
+Seuraavat organisaatiot ja yhteisöt tukevat määritelmää</p>
+
+<ul>
+<li><a href="http://coss.fi/">COSS ry.</a></li>
+<li><a href="http://fi.okfn.org/">Open Knowledge Finland ry.</a></li>
+<li><a href="http://apisuomi.fi/">API:Suomi -yhteisö</a></li>
+</ul>
+
+<p><strong>Keskustelua:</strong></p>
+
+<ul>
+<li>Määritelmän kehitysversio on kommentoitavissa osoitteessa <a href="http://okf.fi/avoin-rajapinta">http://okf.fi/avoin-rajapinta</a>
+Keskusteluketju Finnish Open Data Ecosystem -facebookryhmässä ja toinen keskusteluketju JulkICT-strategia linkedin-ryhmässä sekä kolmas Kokonaisarkitehtuurin osaamisyhteisössä. Otso Kivekäs on myös blogannut aiheesta.</li>
+</ul>
+
+<hr>
+
+<p>Versio: 1.0</p>
+
+<p>Julkaistu: 11.10.2014</p>
 
 <h1>
-<a name="mik%C3%A4-on-avoin-rajapinta" class="anchor" href="#mik%C3%A4-on-avoin-rajapinta"><span class="octicon octicon-link"></span></a>Mikä on avoin rajapinta?</h1>
+<a id="avoimen-rajapinnan-määritelmä" class="anchor" href="#avoimen-rajapinnan-m%C3%A4%C3%A4ritelm%C3%A4" aria-hidden="true"><span class="octicon octicon-link"></span></a>Avoimen rajapinnan määritelmä</h1>
 
-<p>Tässä dokumentissa määritellään selkeästi, mikä on avoin rajapinta. Täsmällistä määrittelyä tarvitaan esimerkiksi julkisissa järjestelmähankinnoissa, joissa usein vaaditaan avoimia rajapintoja. Ilman määritelmää lähes mitä tahansa rajapintaa saatetaan kutsua avoimeksi, vaikka käytännössä rajapinnan dokumentaation saisi vain maksullisena tai pääsyä rajapintaan rajoitettaisiin sopimuksilla.</p>
+<p>Avoin rajapinta on rajapinta, jonka kaikki ominaisuudet ovat julkisia ja jota voi käyttää ilman rajoittavia ehtoja (esimerkiksi laatia rajapintaa hyödyntävän ohjelman ilman rajapinnan valmistajan erillistä hyväksyntää tai pakollisia lisenssimaksuja).<sup><a href="http://www.kdk.fi/fi/kokonaisarkkitehtuuri/sanasto">1</a></sup> Tämä edellyttää, että rajapintakuvaus ja sen dokumentaatio on avoimesti saatavilla ja että rajapintaa voi vapaasti käyttää esimerkiksi omien sovellusten tekemiseksi ja niiden testaamiseksi. Avoimen rajapinnan käyttö on maksutonta, eikä käyttäjän tarvitse kysyä lupaa rajapinnan haltijalta tai kertoa etukäteen mihin tarkoitukseen aikoo rajapintaa käyttää.</p>
 
-<p>Rajapinta on avoin, jos kuka vain voi kehittää sitä käyttävän sovelluksen. Tähän ei riitä pelkkä dokumentaatio, vaan itse rajapintaan pitää päästä käsiksi, jotta omaa sovellusta voi testata. Avoimen rajapinnan käyttö on maksutonta, eikä käyttäjän tarvitse kysyä lupaa rajapinnan haltijalta tai kertoa etukäteen mitä on tekemässä.</p>
-
-<h2>
-<a name="rajapinta" class="anchor" href="#rajapinta"><span class="octicon octicon-link"></span></a>Rajapinta</h2>
-
-<p>Ohjelmointirajapinta (Application programming interface, API) on määritelmä, jonka mukaan eri ohjelmat voivat tehdä pyyntöjä ja vaihtaa tietoja keskenään.</p>
-
-<p>Rajapinta voi olla pelkkä datarajapinta kuten kansalaisaloite.fi:n rajapinta, jonka kautta saa luettua palvelun sisältämän datan toisiin järjestelmiin. Lukuoikeuksien (read) lisäksi rajapinnan kautta voi olla mahdollista myös syöttää (insert), päivittää (update) tai poistaa (delete) dataa.</p>
-
-<p>Järjestelmä voi tarjota myös laskenta-algoritmeja tai muita ohjelmallisia toimintoja rajapinnan kautta palveluna muille järjestelmille. Esimerkkejä tällaisista toiminnallisista rajapinnoista ovat muun muassa Helsingin seudun liikenteen reittioppaan rajapinta, joka tarjoaa reititysalgoritmin tai kansainvälinen Open311-rajapintastandardi, jota tukeviin kaupunkien palautejärjestelmiin voi tehdä vikailmoituksia. Jos järjestelmässä on erikseen datarajapinta ja toiminnallinen rajapinta, on syytä täsmentää, minkä osien on tarkoitus olla avoimia.</p>
+<pre>Kommentti: Rajapinnan dokumentaatiosta ja testiaineistoista ei peritä maksua, mutta palvelun varsinaiseen tietosisältöön käsiksi pääsemisestä voidaan periä myös maksu, vaikka rajapinta olisi avoin.</pre>
 
 <h2>
-<a name="avoin-rajapinta" class="anchor" href="#avoin-rajapinta"><span class="octicon octicon-link"></span></a>Avoin rajapinta</h2>
+<a id="rajapinta" class="anchor" href="#rajapinta" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rajapinta</h2>
+
+<p>Ohjelmointirajapinta (Application programming interface, API) määrittelee, miten ohjelmisto tarjoaa tietoja tai palveluita sovelluksille tai muille tietojärjestelmille.</p>
+
+<pre>Kommentti: Tämän dokumentin kannalta mielenkiintoiset rajapinnat ovat yleensä Internetin yli käytettäviä Web Service -rajapintoja. Samat periaatteet pätevät kuitenkin muunkinlaisiin toteutuksiin. Avoimen rajapinnan määritelmä on riippumaton toteutusteknologiasta.</pre>
+
+<p>Rajapinta voi olla pelkkä <strong>datarajapinta</strong> jonka kautta saa luettua palvelun sisältämän datan toisiin järjestelmiin, tai se voi olla <strong>toiminnallinen rajapinta</strong>, joka tarjoaa myös laskenta-algoritmeja tai mahdollisuuden muuttaa järjestelmän tietoja rajapinnan kautta. Jos järjestelmässä on useita erilaisia  rajapintoja, on syytä täsmentää, mitkä niistä ovat avoimia.</p>
+
+<pre>Kommentti: Esimerkki datarajapinnasta on kansalaisaloite.fi:n rajapinta<sup>[2]</sup>, joka kertoo kansalaisalotteiden tietoja. Esimerkkejä toiminnallisista rajapinnoista ovat muun muassa Helsingin seudun liikenteen reittioppaan rajapinta<sup>[3]</sup>, joka tarjoaa reititysalgoritmin tai kansainvälinen Open311-rajapintastandardi<sup>[4]</sup>, jota tukeviin kaupunkien palautejärjestelmiin voi tehdä vikailmoituksia.</pre>
+
+<h2>
+<a id="avoin-rajapinta" class="anchor" href="#avoin-rajapinta" aria-hidden="true"><span class="octicon octicon-link"></span></a>Avoin rajapinta</h2>
+
+<p><em>suhde: rajapinnan haltija - käyttäjä</em></p>
 
 <p>Jotta rajapinnan voi sanoa olevan avoin, sen täytyy täyttää seuraavat ehdot:</p>
 
 <ol>
-<li><p>Dokumentoitu: Rajapinta on määritelty ja sen dokumentaatio on verkon kautta avoimesti saatavilla. Järjestelmän sisältämät tiedot, niiden rakenne ja rajapinnat tulee  dokumentoida riittävällä tarkkuudella, jotta rajapinnan käyttöönotto ja  hyödyntäminen on vaivatonta.</p></li>
-<li><p>Käyttöönotettava: Avoin rajapinta on mahdollista ottaa käyttöön ilman ylläpitäjän tai järjestelmätoimittajan toimia myös virka-ajan ulkopuolella. Mahdolliset rekisteröitymiset ovat automaattisia.</p></li>
-<li><p>Testattava: Koekäyttöä varten on tarjolla on vähintään testiaineisto. Testattavuuden voi toteuttaa seuraavilla tavoilla:</p></li>
-</ol><ul>
-<li>a) avoin pääsy tuotantojärjestelmään, jota käyttäen palveluun voi integroitua, tai</li>
-<li>b) avoin pääsy testijärjestelmään, API-selaimeen tai konsoliin, jossa on realistista tai autenttista dataa, tai</li>
-<li>c) testijärjestelmä on ladattavissa vapaasti omaan käyttöön itse asennettavaksi</li>
-</ul><p>Avoimen rajapinnan kautta saatava datan ei tarvitse olla avointa dataa. Esimerkiksi potilastietojärjestelmään voi olla avoin rajapinta, mutta potilastiedot eivät ole avoimia. Jos järjestelmään on tarjolla avoin rajapinta, se ei tarkoita, että tuotantojärjestelmään tai sen sisältämään tietoon pääsisi kuka vain käsiksi. Rajapinta voi olla avoin, vaikka tuotantojärjestelmä olisi kokonaan irti internetistä ja pääsy siihen vain hyvin rajatulla joukolla. Tällöin tarjolla pitää kuitenkin olla avoimesti verkossa oleva testiympäristö.</p>
+<li>
+<strong>Avoimesti dokumentoitu:</strong> Rajapinta on määritelty ja sen dokumentaatio on verkon kautta avoimesti saatavilla ja vapaasti käytettävissä. Järjestelmän sisältämät tiedot, niiden rakenne ja rajapinnat on dokumentoitu riittävällä tarkkuudella, jotta rajapinnan käyttöönotto ja hyödyntäminen on mahdollisimman vaivatonta.</li>
+</ol>
 
-<table>
-<tr>
-<td>ESIMERKKI</td>
-        <td>SULJETTU</td>
-        <td>TILAAJAN HALLITSEMA</td>
-        <td>AVOIN</td>
-        <td>KOMMENTTI</td>
-    </tr>
-<tr>
-<td>Palveluun on rajapinta tarjolla, ja palvelun toimittaja on sitoutunut tarjoamaan sen asiakkaidensa osoittamille kolmansille osapuolille</td>
-        <td>X</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-<tr>
-<td>Palvelun datarajapintaan pääsee vapaasti käsiksi, se on julkisesti netissä ja esimerkkikoodia löytyy googlella, mutta toiminnalliseen rajapintaan ei ole pääsyä.</td>
-        <td></td>
-        <td></td>
-        <td>X</td>
-        <td>Avoin, mutta vain datarajapinnan osalta</td>
-    </tr>
-<tr>
-<td>Palveluun on olemassa toiminnallinen rajapinta. Päästäkseen siihen käsiksi täytyy pyytää käyttöavain palvelun tarjoajalta, koska palvelu ei kestäisi vapaan käytön kuormitusta. Käytännössä lupa myönnetään aina.</td>
-        <td>X</td>
-        <td></td>
-        <td></td>
-        <td>Jos palvelusta tarjottaisiin testiversio vapaasti käytettäväksi, se olisi avoin</td>
-    </tr>
-<tr>
-<td>Palveluun on rajapinta, jonka määrittelyt ja dokumentaatio ovat vapasti saatavilla. Itse palveluun ei pääse vapaasti käsiksi, koska se sisältää ihmisten henkilötietoja. Palveluntarjoaja pitää kuitenkin yllä testipalvelinta, jossa on esimerkkidataa, ja testipalvelimeen pääsee käsiksi luomalla itselleen tunnuksen palveluntarjoajan järjestelmään.</td>
-        <td></td>
-        <td></td>
-        <td>X</td>
-        <td></td>
-    </tr>
-</table><h1>
-<a name="liite-1-huomiota-ja-hyvi%C3%A4-k%C3%A4yt%C3%A4nt%C3%B6j%C3%A4" class="anchor" href="#liite-1-huomiota-ja-hyvi%C3%A4-k%C3%A4yt%C3%A4nt%C3%B6j%C3%A4"><span class="octicon octicon-link"></span></a>Liite 1: Huomiota ja hyviä käytäntöjä</h1>
+<pre>Kommentti: Dokumentaation tulee riittää itsenäiseen kehitykseen ilman, että käyttäjän tarvitsee kysyä toimittajalta lisätietoja. Jos järjestelmä käyttää epästandardeja tietoformaatteja, myös niiden rakenne ja käsittely tulee dokumentoida avoimesti.</pre>
 
-<p>Avoimen rajapinnan määritelmä ottaa kantaa vain siihen, milloin rajapinta on avoin ja milloin ei. Alle on koottu joitakin avoimista rajapinnoista puhuttaessa yleisesti esiin nousevia huomiota liittyen muun muassa rajapintojen hyötyihin, standardointiin yms.</p>
+<ol>
+<li>
+<strong>Käyttöönotettava:</strong> Avoin rajapinta on mahdollista ottaa käyttöön ilman ylläpitäjän tai järjestelmätoimittajan toimia myös virka-ajan ulkopuolella. Mahdolliset rekisteröitymiset ovat automaattisia.</li>
+</ol>
 
-<p><strong>Avoimien rajapintojen hyötyjä:</strong> Tärkeä syy avoimien rajapintojen vaatimiseen on halu välttää toimittajalukkoa. Avoimien rajapintojen avulla lisäominaisuudet voi tilata muiltakin toimittajilta, koska järjestelmän sisältämät tiedot on saatavilla rajapintojen kautta. Ilman avoimia rajapintoja usein ainoastaan alkuperäinen järjestelmätoimittaja pystyy  tekemään muutokset. Myös vaihtoehtoisten sovellusten ja käyttöliittymien kehittäminen on helppoa sellaisiin järjestelmiin, joissa on avoimet rajapinnat. Sovellusten kehittäminen voi tapahtua riippumatta rajapinnan ylläpitäjäorganisaatiosta saatika alkuperäisen järjestelmän toimittajasta.</p>
+<pre>Kommentti: Tämän ei tarvitse tarkoittaa pääsyä tuotantojärjestelmään, eikä vaatimus siten estä tuotantojärjestelmän käyttövaltuuksien hallintaa.</pre>
 
-<p><strong>Tilaajan hallitsema rajapinta:</strong> Tilaajan hallitsema rajapinta tarkoittaa rajapintaa, jota järjestelmän tilaajalla on oikeus käyttää ja levittää haluamallaan tavalla. Tilaaja voi halutessaan avata rajapinnan järjestelmäntoimittajasta tai sovelluksen käyttämästä riippumatta, mutta mikäli näin ei tehdä kyse ei ole avoimesta rajapinnasta. Tekeillä olevat JIT ehdot määrittelevät, että ostajalla pitää olla mahdollisuus halutessaan avata rajapinta (laittaa dokumentaatio ja testiaineisto verkkoon yms.) ilman, että toimittaja puuttuu siihen. JIT-ehdot eivät kuitenkaan vaadi, että kaikissa julkishallinnon ostamissa ohjelmistoissa rajapinnat olisi pakko avata, vaan tämä jää ostajan harkintaan.</p>
+<ol>
+<li><p><strong>Testattava:</strong> Rajapinnan tulee olla testattavissa. Testausta varten on tarjolla on vähintään testiaineisto. Testattavuuden voi toteuttaa seuraavilla tavoilla:</p></li>
+<li><p>avoin pääsy tuotantojärjestelmään, jota käyttäen palveluun voi integroitua, tai</p></li>
+<li><p>avoin pääsy testijärjestelmään, jossa on realistista tai autenttista dataa, tai</p></li>
+<li><p>testijärjestelmä on ladattavissa vapaasti omaan käyttöön itse asennettavaksi</p></li>
+</ol>
 
-<p><strong>Standardointi:</strong> Rajapintojen toteutuksessa kannattaa suosia yleisesti käytettyjä standardeja, protokollia sekä formaatteja. Käytännössä rajapinta voidaan toteuttaa esimerkiksi REST-arkkitehtuurin mukaisesti siten, että sen kautta järjestelmän tiedot saadaan koneluettavana XML-muodossa sekä selainpohjaisia sovelluksia varten JSON-muodossa. Tässä kiteytyksessä ei oteta kantaa harmonisointiin. Harmonisointi on kuitenkin looginen kehityskulku, jotta kaikki avoimet rajapinnat eivät olisi keskenään erilaisia, vaan syntyisi ainakin toimialakohtaisesti yhteisiä käytänteitä.</p>
+<p>Avoimen rajapinnan kautta saatavan datan ei tarvitse olla avointa dataa<sup><a href="http://opendefinition.org/">5</a></sup>. Rajapinta voi olla avoin, vaikka tuotantojärjestelmä olisi kokonaan irti Internetistä ja pääsy siihen vain hyvin rajatulla joukolla. Jos rajapinta on avoin, mutta pääsy datasisältöön on rajoitettu, tarjolla tulee olla avoimesti verkossa käytettävissä oleva testiympäristö</p>
 
-<p><strong>Rajapinnan käyttö ilman rekisteröitymistä:</strong> Rajapinnan avoimuus ei velvoita tarjoamaan pääsyä tuotantojärjestelmään tai tuotantodataan vapaasti, vaan sen osalta voidaan vaatia esim. palvelutasosopimus (Service Level Agreement, SLA). Jos itse tuotantojärjestelmään ei ole pääsyä, tarvitaan testijärjestelmä avoimesti kehittämistä varten.</p>
+<pre>Kommentti: Jos järjestelmään on tarjolla avoin rajapinta, se ei tarkoita, että tuotantojärjestelmään tai sen sisältämään tietoon pääsisi kuka vain käsiksi. Esimerkiksi potilastietojärjestelmään voi olla avoin rajapinta, mutta potilastiedot eivät ole avoimia. Avoimen rajapinnan kautta voidaan myös tarjota tiettyä henkilöä koskevia tietoja vain tämän omalla suostumuksella (my data).</pre>
 
-<p><strong>Kuormitusrajoitukset:</strong> Avoin rajapinta kannattaa toteuttaa siten, että sitä kuormittamalla ei voi tahattomasti aiheuttaa uhkaa tai haittaa tietojärjestelmän muulle käytölle. Vaikkapa kutsujen määrää per aikayksikkö voi teknisesti rajoittaa. Rajoitustoiminnot saattavat aiheuttaa tarpeita kahdentaa osia tietojärjestelmästä (vrt. Reittiopas)</p>
+<p>Rajapinnan avoimuus mahdollistaa myös sen, että kuka tahansa voi tehdä kilpailevan järjestelmän, joka toteuttaa samat rajapinnat ja on näin yhteensopiva kaikkien rajapintaa hyödyntävien sovellusten kanssa.</p>
 
-<p><strong>Muita vastaavia määritelmiä:</strong> Vastaavaa avoimien rajapintojen määritelmää ei ole, mutta sisältöä voi verrata avoimen lähdekoodin määritelmään ja suomennettuun avoimen datan ja avoimen sisällön määritelmään. Englanniksi on olemassa muun muassa The Open API Principles.</p>
+<h2>
+<a id="tilaajan-hallitsema-rajapinta" class="anchor" href="#tilaajan-hallitsema-rajapinta" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tilaajan hallitsema rajapinta</h2>
+
+<p><em>suhde: toimittaja - tilaaja</em></p>
+
+<p>Tilaajan hallitsema rajapinta tarkoittaa rajapintaa, jota järjestelmän tilaajalla on oikeus käyttää ja levittää haluamallaan tavalla. Tällöin tilaaja voi halutessaan avata rajapinnan järjestelmäntoimittajasta riippumatta, mutta mikäli näin ei tehdä kyse ei ole avoimesta rajapinnasta. Mikäli tilaaja ei avaa rajapintaa, ei rajapinta ole ulkopuolisille avoin, jolloin kyse ei ole yleisesti ottaen avoimesta rajapinnasta.</p>
       </section>
       <footer>
-        <p>Project maintained by <a href="https://github.com/okffi">okffi</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+        <p>This project is maintained by <a href="https://github.com/okffi">okffi</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    <script src="javascripts/scale.fix.js"></script>
     
   </body>
 </html>

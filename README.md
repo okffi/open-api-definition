@@ -12,6 +12,7 @@ Seuraavat organisaatiot ja yhteisöt tukevat määritelmää
 - [COSS ry.](http://coss.fi/)
 - [Open Knowledge Finland ry.](http://fi.okfn.org/)
 - [API:Suomi -yhteisö](http://apisuomi.fi/)
+- [Sampo Software Oy](http://samposoftware.com/)
 
 **Keskustelua:**
 - Määritelmän kehitysversio on kommentoitavissa osoitteessa http://okf.fi/avoin-rajapinta

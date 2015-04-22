@@ -13,6 +13,7 @@ Seuraavat organisaatiot ja yhteisöt tukevat määritelmää
 - [Open Knowledge Finland ry.](http://fi.okfn.org/)
 - [API:Suomi -yhteisö](http://apisuomi.fi/)
 - [Sampo Software Oy](http://samposoftware.com/)
+- [Forum Virium Helsinki Oy](http://www.forumvirium.fi/)
 
 **Keskustelua:**
 - Määritelmän kehitysversio on kommentoitavissa osoitteessa http://okf.fi/avoin-rajapinta

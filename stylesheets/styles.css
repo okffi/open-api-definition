@@ -3,7 +3,7 @@
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#444;
+  color:#000000;
   font-weight:300;
 }
 
@@ -40,7 +40,7 @@ a {
 
 a small {
   font-size:11px;
-  color:#444;
+  color:#000000;
   margin-top:-0.6em;
   display:block;
 }
@@ -83,12 +83,12 @@ th, td {
 }
 
 dt {
-  color:#444;
+  color:#000000;
   font-weight:700;
 }
 
 th {
-  color:#444;
+  color:#000000;
 }
 
 img {
@@ -139,7 +139,7 @@ header ul a {
 }
 
 strong {
-  color:#222;
+  color:#000000;
   font-weight:700;
 }
 
@@ -250,6 +250,6 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
-    color:#444;
+    color:#000000;
   }
 }

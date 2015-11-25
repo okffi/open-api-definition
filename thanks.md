@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Thank you
+title: Kiitos palautteesta
 ---
 
-Thank you for your message!
+Kiitos palautteesta!

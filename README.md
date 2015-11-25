@@ -4,7 +4,7 @@ Määritelmä itsessään ei ota kantaa siihen, missä tapauksissa avoin rajapin
 Mahdollisuuksien mukaan suositus pyritään saamaan mukaan myös JHS-työhön ja julkishallinnon JIT -sopimusehtoihin.
 
 **Kirjoittajat**
-Version 1.0 kirjoittamiseen ja kommentointiin ovat osallistuneet lukuisien anonyymien kommentaattoreiden lisäksi: Antti Poikola, Otso Kivekäs, Joni Kettunen, Teemu Polo, Sami Laine, Jukka Aaltonen, Jarkko Moilanen, Jaakko Korhonen ja Mika Honkanen, Otto Kekäläinen, Martin von Willebrand.
+Version 1.0 kirjoittamiseen ja kommentointiin ovat osallistuneet lukuisien anonyymien kommentaattoreiden lisäksi: Antti Poikola, Otso Kivekäs, Joni Kettunen, Teemu Polo, Sami Laine, Jukka Aaltonen, Jarkko Moilanen, Jaakko Korhonen, Mika Honkanen, Otto Kekäläinen ja Martin von Willebrand.
 
 **Määritelmän tukijat**
 Seuraavat organisaatiot ja yhteisöt tukevat määritelmää

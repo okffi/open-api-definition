@@ -95,13 +95,13 @@ twitter:
 youtube:
 instagram:
 tumblr:
-facebook:https://www.facebook.com/groups/apisuomi/
+facebook: https://www.facebook.com/groups/apisuomi/
 google-plus:
 reddit:
 soundcloud:
 medium:
 linkedin:
-github:https://github.com/okffi/open-api-definition/
+github: https://github.com/okffi/open-api-definition/
 behance:
 codepen:
 dribbble:
@@ -118,9 +118,9 @@ paypal:
 # Useful for translating into other languages.
 
 var_on_the_web: On the web
-var_read: Read # Text after each post summary on the homepage.
-var_newer: Newer
-var_older: Older
+var_read: Lue # Text after each post summary on the homepage.
+var_newer: Uudempi
+var_older: Vanhempi
 var_next_post: Seuraava
 var_previous_post: Edellinen
 var_less_than_a_minute_read: Alle minuutti

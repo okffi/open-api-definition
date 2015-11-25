@@ -125,7 +125,7 @@ var_next_post: Seuraava
 var_previous_post: Edellinen
 var_less_than_a_minute_read: Alle minuutti
 var_min_read: minuuttia # Text after reading time. Example: 5 min read.
-var_post_by: Kirjoittanut
+var_post_by: Kirjoittaneet
 var_guest_post_by: Guest post by
 var_your_email: Sähköposti
 var_your_message: Viesti

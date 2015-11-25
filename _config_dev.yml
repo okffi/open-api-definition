@@ -1,0 +1,151 @@
+
+# The name of your website.
+name: Holo Alfa
+
+description:
+
+  # Description of your site. This will show up in google.
+  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+
+  # Description of your site. This will show up on the front page.
+  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
+
+author:
+  name: Dr. Jekyll # Change this!
+
+  # Necessary for contact page
+  email: your@email.com # Change this!
+
+  # Optional text (html) to display after author name. Leave empty if you don't
+  # want it.
+  info:
+
+# The URL of the homepage of your site (without trailing slash). Leave this
+# empty when you run Jekyll locally.
+url: http://localhost:4000
+baseurl: ""
+
+# language attribute in <html> element.
+lang: en
+
+# FROM THIS POINT ON EVERYTHING IS OPTIONAL
+
+##############
+# APPEREANCE #
+##############
+
+# If you want to show the subtitle anywhere else than the front page, use
+# {% include subtitle.html %} to include it anywhere you want.
+show-subtitle: true
+display-social-icons: false
+
+footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+
+# Preferably 64px in height. Leave empty = disable.
+logo-image: # /img/logo.png
+
+# Toolbar color for Chrome on Android.
+theme-color-attr: "#00f0ff"
+
+# Color of Microsoft live Tile.
+ms-tile-color: "#00f0ff"
+
+# Color used throughout the theme. Format: R, G, B.
+theme-color: 0, 240, 255 # Original: 0, 240, 255
+
+# Text color used throughout the theme. Format: R, G, B.
+text-color: 0, 0, 0 # Original: 0, 0, 0
+
+# Background color used throughout the theme. Format: R, G, B.
+# Note: if you change the background color AND you use cover images, you should
+#       also change the CSS gradient in "_includes\gradient.css" to match the
+#       background color. Edit and copy it from here:
+#       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
+background-color: 255, 255, 255 # Original: 255, 255, 255
+
+display-author-post-page: true
+display-author-front-page: true
+
+# http://alanwsmith.com/jekyll-liquid-date-formatting-examples
+date_format: "%b %-d, %Y"
+
+# Minimal screen-width after which the navigation will change position from
+# vertical to horizontal.
+nav-breaking-point: 520px
+
+# Number of posts on each page.
+paginate: 3
+
+# Display links for the previous and next post on post pages.
+display-next-prev-post: false
+
+# Leave empty if you don't want comments on post pages.
+disqus-shortname:
+
+
+################
+# SOCIAL ICONS #
+################
+
+# Use a complete url here, including http:// and such. Requiring just usernames
+# has been considered, but this is way more customizable.
+twitter:
+youtube:
+instagram:
+tumblr:
+facebook:
+google-plus:
+reddit:
+soundcloud:
+medium:
+linkedin:
+github:
+behance:
+codepen:
+dribbble:
+trello:
+stack-overflow:
+bitcoin:
+paypal:
+
+
+#####################
+# CUSTOMIZABLE TEXT #
+#####################
+
+# Useful for translating into other languages.
+
+var_on_the_web: On the web
+var_read: Read # Text after each post summary on the homepage.
+var_newer: Newer
+var_older: Older
+var_next_post: Next post
+var_previous_post: Previous post
+var_less_than_a_minute_read: Less than a minute read
+var_min_read: min read # Text after reading time. Example: 5 min read.
+var_post_by: Post by
+var_guest_post_by: Guest post by
+var_your_email: Your email
+var_your_message: Your message
+
+
+##################
+# BUILD SETTINGS #
+##################
+
+# You don't have to change these.
+
+exclude: [vendor]
+highlighter: pygments
+kramdown:
+  input: GFM
+paginate_path: "/page-:num/"
+permalink: pretty
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      excerpt_separator: "<!--more-->"

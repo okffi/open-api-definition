@@ -36,8 +36,8 @@ country_name: Finland
 
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
-show-subtitle: true
-display-social-icons: false
+show-subtitle: false
+display-social-icons: true
 
 footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a>.
 

@@ -1,6 +1,6 @@
 
 # The name of your website.
-name: Holo Alfa
+name: Avoinrajapinta
 
 description:
 
@@ -11,10 +11,10 @@ description:
   subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
 
 author:
-  name: Dr. Jekyll # Change this!
+  name: Mika Honkanen # Change this!
 
   # Necessary for contact page
-  email: your@email.com # Change this!
+  email: mika.honkanen@okf.fi # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
@@ -26,7 +26,7 @@ url: http://localhost:4000
 baseurl: ""
 
 # language attribute in <html> element.
-lang: en
+lang: fi
 
 # FROM THIS POINT ON EVERYTHING IS OPTIONAL
 
@@ -36,8 +36,8 @@ lang: en
 
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
-show-subtitle: true
-display-social-icons: false
+show-subtitle: false
+display-social-icons: true
 
 footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
 
@@ -93,13 +93,13 @@ twitter:
 youtube:
 instagram:
 tumblr:
-facebook:
+facebook: https://www.facebook.com/groups/apisuomi/
 google-plus:
 reddit:
 soundcloud:
 medium:
 linkedin:
-github:
+github: https://github.com/okffi/open-api-definition
 behance:
 codepen:
 dribbble:

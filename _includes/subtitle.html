@@ -1,15 +1,10 @@
 <div class="subtitle">
   <p>
-  {% if site.display-social-icons %}
-    {% if site.show-subtitle and site.display-social-icons %}
-    <br>
-    {% endif %}
-    {{ site.var_on_the_web }}:&nbsp;
     {% if site.twitter %}<a class="fa fa-twitter" href="{{ site.twitter }}"></a>{% endif %}
     {% if site.youtube %}<a class="fa fa-youtube" href="{{ site.youtube }}"></a>{% endif %}
     {% if site.instagram %}<a class="fa fa-instagram" href="{{ site.instagram }}"></a>{% endif %}
     {% if site.tumblr %}<a class="fa fa-tumblr" href="{{ site.tumblr }}"></a>{% endif %}
-    {% if site.facebook %}<a class="fa fa-facebook-official" href="{{ site.facebook }}"></a>{% endif %}
+    <a class="fa fa-facebook-official" href="{{ site.facebook }}"></a>
     {% if site.google-plus %}<a class="fa fa-google-plus" href="{{ site.google-plus }}"></a>{% endif %}
     {% if site.reddit %}<a class="fa fa-reddit" href="{{ site.reddit }}"></a>{% endif %}
     {% if site.soundcloud %}<a class="fa fa-soundcloud" href="{{ site.soundcloud }}"></a>{% endif %}

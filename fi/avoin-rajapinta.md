@@ -8,7 +8,7 @@ Julkaistu: 11.10.2014
 
 Avoin rajapinta on rajapinta, jonka kaikki ominaisuudet ovat julkisia ja jota voi käyttää ilman rajoittavia ehtoja (esimerkiksi laatia rajapintaa hyödyntävän ohjelman ilman rajapinnan valmistajan erillistä hyväksyntää tai pakollisia lisenssimaksuja).<sup>[1]</sup> Tämä edellyttää, että rajapintakuvaus ja sen dokumentaatio on avoimesti saatavilla ja että rajapintaa voi vapaasti käyttää esimerkiksi omien sovellusten tekemiseksi ja niiden testaamiseksi. Avoimen rajapinnan käyttö on maksutonta, eikä käyttäjän tarvitse kysyä lupaa rajapinnan haltijalta tai kertoa etukäteen mihin tarkoitukseen aikoo rajapintaa käyttää.
 
-<i>Kommentti: Rajapinnan dokumentaatiosta ja testiaineistoista ei peritä maksua, mutta palvelun varsinaiseen tietosisältöön käsiksi pääsemisestä voidaan periä myös maksu, vaikka rajapinta olisi avoin.</i>
+<i>Kommentti: Rajapinnan käyttämisestä ja dokumentaatiosta ei peritä maksua, mutta palvelun tietosisältöä koskevat ehdot voivat rajoittaa sisällön käyttöä, vaikka rajapinta olisi avoin.</i>
 
 ## Rajapinta
 
@@ -16,9 +16,11 @@ Ohjelmointirajapinta (Application programming interface, API) määrittelee, mit
 
 <i>Kommentti: Tämän dokumentin kannalta mielenkiintoiset rajapinnat ovat yleensä Internetin yli käytettäviä Web Service -rajapintoja. Samat periaatteet pätevät kuitenkin muunkinlaisiin toteutuksiin. Avoimen rajapinnan määritelmä on riippumaton toteutusteknologiasta.</i>
 
-Rajapinta voi olla pelkkä **datarajapinta** jonka kautta saa luettua palvelun sisältämän datan toisiin järjestelmiin, tai se voi olla **toiminnallinen rajapinta**, joka tarjoaa myös laskenta-algoritmeja tai mahdollisuuden muuttaa järjestelmän tietoja rajapinnan kautta. Jos järjestelmässä on useita erilaisia  rajapintoja, on syytä täsmentää, mitkä niistä ovat avoimia.
+Rajapinta voi olla pelkkä **datarajapinta** jonka kautta saa luettua palvelun sisältämän datan toisiin järjestelmiin, tai se voi olla **toiminnallinen rajapinta**, joka tarjoaa myös laskenta-algoritmeja tai mahdollisuuden muuttaa järjestelmän tietoja rajapinnan kautta. 
 
 <i>Kommentti: Esimerkki datarajapinnasta on kansalaisaloite.fi:n rajapinta<sup>[2]</sup>, joka kertoo kansalaisalotteiden tietoja. Esimerkkejä toiminnallisista rajapinnoista ovat muun muassa Helsingin seudun liikenteen reittioppaan rajapinta<sup>[3]</sup>, joka tarjoaa reititysalgoritmin tai kansainvälinen Open311-rajapintastandardi<sup>[4]</sup>, jota tukeviin kaupunkien palautejärjestelmiin voi tehdä vikailmoituksia.</i>
+
+Joskus varsinaisen rajapinnan rinnalla tarjotaan tuotantojärjestelmän kaltainen (toiminnallisesti identtinen) testidataa sisältävä avoin rajapinta tai testijärjestelmä on ladattavissa vapaasti omaan käyttöön itse asennettavaksi. Tuotantojärjestelmän käyttöehdot saattavat olla tiukemmat kuin testirajapinnan tai testijärjestelmän, jolloin tuotantojärjestelmän rajapinta ei välttämättä täytä avoimuuden kriteerejä. Jos järjestelmässä on useita erilaisia rajapintoja, on syytä täsmentää, mitkä niistä ovat avoimia. 
 
 ## Avoin rajapinta
 
@@ -33,14 +35,6 @@ Jotta rajapinnan voi sanoa olevan avoin, sen täytyy täyttää seuraavat ehdot:
 **2) Käyttöönotettava:** Avoin rajapinta on mahdollista ottaa käyttöön ilman ylläpitäjän tai järjestelmätoimittajan toimia myös virka-ajan ulkopuolella. Mahdolliset rekisteröitymiset ovat automaattisia.
 
 <i>Kommentti: Tämän ei tarvitse tarkoittaa pääsyä tuotantojärjestelmään, eikä vaatimus siten estä tuotantojärjestelmän käyttövaltuuksien hallintaa.</i>
-
-**3) Testattava:** Rajapinnan tulee olla testattavissa. Testausta varten on tarjolla on vähintään testiaineisto. Testattavuuden voi toteuttaa seuraavilla tavoilla:
-
-  1. avoin pääsy tuotantojärjestelmään, jota käyttäen palveluun voi integroitua, tai
-
-  2. avoin pääsy testijärjestelmään, jossa on realistista tai autenttista dataa, tai
-
-  3. testijärjestelmä on ladattavissa vapaasti omaan käyttöön itse asennettavaksi
 
 Avoimen rajapinnan kautta saatavan datan ei tarvitse olla avointa dataa<sup>[5]</sup>. Rajapinta voi olla avoin, vaikka tuotantojärjestelmä olisi kokonaan irti Internetistä ja pääsy siihen vain hyvin rajatulla joukolla. Jos rajapinta on avoin, mutta pääsy datasisältöön on rajoitettu, tarjolla tulee olla avoimesti verkossa käytettävissä oleva testiympäristö
 

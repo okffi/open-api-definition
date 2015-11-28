@@ -25,7 +25,7 @@ url: http://avoinrajapinta.fi
 baseurl: ""
 
 # language attribute in <html> element.
-lang: fi_FI
+lang: FI_fi
 country_name: Finland
 
 # FROM THIS POINT ON EVERYTHING IS OPTIONAL

@@ -32,6 +32,10 @@ Jotta rajapinnan voi sanoa olevan avoin, sen täytyy täyttää seuraavat ehdot:
 
 **2) Käyttöönotettava:** Avoin rajapinta on mahdollista ottaa käyttöön ilman ylläpitäjän tai järjestelmätoimittajan toimia myös virka-ajan ulkopuolella. Mahdolliset rekisteröitymiset ovat automaattisia.
 
+Avoin rajapinta voi teknisesti rajata rekisteröitymättömien tai automaattisesti
+rekisteröityneiden käyttäjien kutsujen määrää per aikayksikkö vapaan käytön
+aiheuttaman kuormituksen hallitsemiseksi.
+
 <i>Kommentti: Tämän ei tarvitse tarkoittaa pääsyä tuotantojärjestelmään, eikä vaatimus siten estä tuotantojärjestelmän käyttövaltuuksien hallintaa.</i>
 
 **3) Testattava:** Rajapinnan tulee olla testattavissa. Testausta varten on tarjolla on vähintään testiaineisto. Testattavuuden voi toteuttaa seuraavilla tavoilla:

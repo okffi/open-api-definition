@@ -22,7 +22,7 @@ author:
   info:
 
 url: http://avoinrajapinta.fi
-baseurl: ""
+baseurl: http://avoinrajapinta.fi
 
 # language attribute in <html> element.
 lang: fi

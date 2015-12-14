@@ -1,32 +1,35 @@
 
 # The name of your website.
-name: Avoinrajapinta
+name: avoinrajapinta.fi
 
 description:
 
   # Description of your site. This will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+  meta: Avoimen rajapinnan (API) käsitteen määritelmä, periaatteet suunnitteluun.
 
   # Description of your site. This will show up on the front page.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
+  subtitle: Avoimen rajapinnan määritelmä, periaatteet suunnitteluun.
 
 author:
-  name: Mika Honkanen # Change this!
+  name: Open Knowledge Finland & COSS
 
   # Necessary for contact page
-  email: mika.honkanen@okf.fi # Change this!
+  email: mika.honkanen@okf.fi
+  phone_number: +358-50-4116-720
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
   info:
 
-# The URL of the homepage of your site (without trailing slash). Leave this
-# empty when you run Jekyll locally.
-url: http://localhost:4000
+
+# The URL of the homepage of your site (without trailing slash).
+# Leave this empty when you run Jekyll locally.
+url:
 baseurl: ""
 
 # language attribute in <html> element.
 lang: fi
+country_name: Finland
 
 # FROM THIS POINT ON EVERYTHING IS OPTIONAL
 
@@ -39,10 +42,10 @@ lang: fi
 show-subtitle: false
 display-social-icons: true
 
-footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a>.
 
 # Preferably 64px in height. Leave empty = disable.
-logo-image: # /img/logo.png
+logo-image: "/img/logo/avoinrajapinta-logo@0.5x.png"
 
 # Toolbar color for Chrome on Android.
 theme-color-attr: "#00f0ff"
@@ -51,10 +54,12 @@ theme-color-attr: "#00f0ff"
 ms-tile-color: "#00f0ff"
 
 # Color used throughout the theme. Format: R, G, B.
-theme-color: 0, 240, 255 # Original: 0, 240, 255
+theme-color: 216, 216, 216
+# Original: 0, 240, 255
 
 # Text color used throughout the theme. Format: R, G, B.
-text-color: 0, 0, 0 # Original: 0, 0, 0
+text-color: 0, 0, 0
+# Original: 0, 0, 0
 
 # Background color used throughout the theme. Format: R, G, B.
 # Note: if you change the background color AND you use cover images, you should
@@ -99,7 +104,7 @@ reddit:
 soundcloud:
 medium:
 linkedin:
-github: https://github.com/okffi/open-api-definition
+github: https://github.com/okffi/open-api-definition/
 behance:
 codepen:
 dribbble:
@@ -116,17 +121,17 @@ paypal:
 # Useful for translating into other languages.
 
 var_on_the_web: On the web
-var_read: Read # Text after each post summary on the homepage.
-var_newer: Newer
-var_older: Older
-var_next_post: Next post
-var_previous_post: Previous post
-var_less_than_a_minute_read: Less than a minute read
-var_min_read: min read # Text after reading time. Example: 5 min read.
-var_post_by: Post by
+var_read: Lue # Text after each post summary on the homepage.
+var_newer: Uudempi
+var_older: Vanhempi
+var_next_post: Seuraava
+var_previous_post: Edellinen
+var_less_than_a_minute_read: Alle minuutti
+var_min_read: minuuttia # Text after reading time. Example: 5 min read.
+var_post_by: Kirjoittaneet
 var_guest_post_by: Guest post by
-var_your_email: Your email
-var_your_message: Your message
+var_your_email: Sähköposti
+var_your_message: Viesti
 
 
 ##################

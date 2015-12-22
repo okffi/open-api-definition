@@ -11,7 +11,7 @@ description:
   subtitle: Avoimen rajapinnan määritelmä, periaatteet suunnitteluun.
 
 author:
-  name: Open Knowledge Finland & COSS 
+  name: Open Knowledge Finland & COSS
 
   # Necessary for contact page
   email: mika.honkanen@okf.fi
@@ -21,8 +21,14 @@ author:
   # want it.
   info:
 
+
+# The URL of the homepage of your site (without trailing slash).
+# Leave this empty when you run Jekyll locally.
+#url: # Empty url is needed when testing on localhost, but should be disabled before publishing
 url: http://avoinrajapinta.fi
-baseurl: http://avoinrajapinta.fi
+
+# Base URL is only needed if site is in a sub-directory
+baseurl: ""
 
 # language attribute in <html> element.
 lang: fi

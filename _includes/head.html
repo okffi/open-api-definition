@@ -12,16 +12,16 @@
 
 <meta name="description" content="{{ page.summary }} {{ site.description.meta }}">
 
-<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.baseurl }}/feed.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.url }}{{ site.baseurl }}/feed.xml">
 
 <!-- icons -->
-<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-96x96.png" sizes="96x96">
-<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-32x32.png" sizes="32x32">
-<link rel="icon" type="image/png" href="{{ site.baseurl }}/android-chrome-192x192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="{{ site.url }}{{ site.baseurl }}/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/android-chrome-192x192.png" sizes="192x192">
 <meta name="theme-color" content="{{ site.theme-color-attr }}">
 <meta name="msapplication-TileColor" content="{{ site.ms-tile-color }}">
-<meta name="msapplication-TileImage" content="{{ site.baseurl }}/mstile-310x310.png">
+<meta name="msapplication-TileImage" content="{{ site.url }}{{ site.baseurl }}/mstile-310x310.png">
 <!-- /icons -->
 
 <!-- og tags -->
@@ -39,11 +39,11 @@
   {% if page.cover-image %}
     <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/{{ page.cover-image }}">
   {% else %}
-    <meta property="og:image" content="{{ site.baseurl }}/img/og-image.jpg">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/og-image.jpg">
   {% endif %}
 {% endif %}
 <meta property="og:type" content="website">
-<meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 <meta property="og:description" content="
 {% if page.summary %}
 {{ page.summary }}
@@ -53,15 +53,15 @@
 
 <!-- /og tags -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/js/modernizr.js"></script>
-<script src="{{ site.baseurl }}/js/fitvids.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/modernizr.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/js/fitvids.js"></script>
 <link href='//fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:600,900|Crimson+Text:700italic,600,600italic,400,700,400italic' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ site.baseurl }}/css/reset.css">
-<link rel="stylesheet" href="{{ site.baseurl }}/css/pygments.css">
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/reset.css">
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/pygments.css">
 {% if site.display-social-icons %}
-<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.css">
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/font-awesome.css">
 {% endif %}
-<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+<link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/style.css">
 <!--[if gte IE 9]>
   <style type="text/css">
     .gradient {

@@ -8,3 +8,8 @@ Tähän saa kirjoittaa määritelmän parannusehdotuksia:
 6. Kielituki
 7. Metadata
 8. 
+
+
++Avoin rajapinta voi teknisesti rajata rekisteröitymättömien tai automaattisesti
++rekisteröityneiden käyttäjien kutsujen määrää per aikayksikkö vapaan käytön
++aiheuttaman kuormituksen hallitsemiseksi

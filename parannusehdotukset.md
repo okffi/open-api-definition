@@ -10,6 +10,4 @@ Tähän saa kirjoittaa määritelmän parannusehdotuksia:
 8. 
 
 
-+Avoin rajapinta voi teknisesti rajata rekisteröitymättömien tai automaattisesti
-+rekisteröityneiden käyttäjien kutsujen määrää per aikayksikkö vapaan käytön
-+aiheuttaman kuormituksen hallitsemiseksi
+Avoin rajapinta voi teknisesti rajata rekisteröitymättömien tai automaattisesti rekisteröityneiden käyttäjien kutsujen määrää per aikayksikkö vapaan käytön aiheuttaman kuormituksen hallitsemiseksi.

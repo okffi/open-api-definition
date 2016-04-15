@@ -15,6 +15,12 @@ Seuraavat organisaatiot ja yhteisöt tukevat määritelmää
 - [API:Suomi -yhteisö](http://apisuomi.fi/)
 - [Sampo Software Oy](http://samposoftware.com/)
 - [Forum Virium Helsinki Oy](http://www.forumvirium.fi/)
+- [Helsingin kaupunki](www.helsinki.fi)
+- [Espoon kaupunki](espoo.fi)
+- [Vantaan kaupunki](vantaa.fi)
+- [Tampereen kaupunki](tampere.fi)
+- [Turun kaupunki](turku.fi)
+- [Oulun kaupunki](oulu.fi)
 
 ##Keskustelua:
 - Määritelmän kehitysversio on kommentoitavissa osoitteessa http://okf.fi/avoin-rajapinta

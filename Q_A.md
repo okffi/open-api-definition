@@ -6,7 +6,6 @@ Rajapinta kattaa usein pienen osajoukon koko organisaation informaatiosta. Tarpe
 usein pääsy osaan tiedoista, ei kaikkeen tietoon. Alla olevassa kuvassa organisaatiolla on 4 erilaista avointa rajapintaa (Open Application Protocol Interface, OAPI), jotka kattavat eri suuruiset ja eri osat organisaation digitaalisessa muodossa olevaa informaatiota. Vaikka kaikki rajapinnat ovat avoimia jää niiden ulkopuolelle merkittävä osa organisaation digitaalisesta tiedosta.
 
 ![Tietojärjestelmissä oleva tieto vs. rajapinnan tarjoama tieto](/organisaation_tiedot_eri_tietojarjestelmisssa.png)
-Format: ![Alt Text](url)
 
 ###Tarkoittaako määritelmä, että kenellä tahansa pitää olla oikeus päästä tietoon?
 Ei tarkoita. Vaikka rajapinta olisi avoin, ei se tarkoita, että siihen käyttöoikeus pitäisi olla kaikilla. Rajapinnan 

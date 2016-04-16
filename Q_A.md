@@ -86,8 +86,11 @@ Tässä Espoon itse tekemät arviot kustannussäästöistä.
 
 Espoon tapauksessa laskelmat ovat suuntaa-antavia. Esimerkiksi näiden asioiden arvoa rahallisesti 
 on vaikeaa arvioida:
+
 1.	Päällekkäisen tiedon syöttäminen (turhaa työtä) ja käsittelyyn kuluva työaika. Se on joka tapauksessa suuri menoerä. Työntekijöiden aikaa tuhlaantuu tähän joka viikko useita tunteja eri arvioiden mukaan. Esimerkiksi Espoon tapauksessa kaupungin työntekijöitä on 14 000. Lisäksi jokaisen asiakkaan aikaa kuluu, kun omia tietoja joutuu syöttämään ja päivittämään eri tietojärjestelmiin esimerkiksi paperilomakkeilla.
+
 2.	Organisaation virheellinen toiminta väärän tai vanhentuneen tiedon perusteella ja tämän kerrannaisvaikutukset.
+
 3.	Syntymättä jäävät yritykset ja innovaatiot, kun tietoa ei pysty käsittelemään vapaasti.
 
 Avoimilla ja hyvin toimivilla rajapinnoilla on siis merkittävä vaikutus organisaatioiden toimintaan ja tehokkuuteen.

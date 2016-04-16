@@ -27,9 +27,9 @@ Lähes kaikille ohjelmointikielille (esimerkiksi Node.js, PHP, Python, Ruby, Obj
 
 ### Mitä rajapintojen rakentamisessa pitäisi aivan erityisesti huomioida?
 
-1. *Luotettavuus.* Rajapinnan on oltava huokutteleva, jotta kehittäjät kiinnostuvat siitä. Mikäli rajapinta ei ole luotettava, ei sen päälle rakenneta helposti mitään. Toisaalta myös rajapinnan elinkaari on jollain tasolla näkyvissä. Ohjelmistokehittäjä ei kähtökkohtaisesti halua rakentaa sellaisen rajapinnan päälle, joka ei toimi tai jos rajapinnan olemassaolosta lähitulevaisuudessa ei voi olla varma.
+1. *Luotettavuus.* Rajapinnan on oltava huokutteleva, jotta kehittäjät kiinnostuvat siitä. Mikäli rajapinta ei ole luotettava, ei sen päälle rakenneta helposti mitään. Toisaalta myös rajapinnan elinkaari on jollain tasolla näkyvissä. Ohjelmistokehittäjä ei lähtökohtaisesti halua rakentaa sellaisen rajapinnan päälle, joka ei toimi oikein tai jos rajapinnan olemassaolosta lähitulevaisuudessa ei voi olla varma.
 2. *Käyttäjät.* Suunnittele ja toteuta rajapinnat todelliseen asiakastarpeeseen ja tue niiden käyttäjiä kaikin mahdollisin keinoin.
-3. *Monitoroi käyttöä.* Seuraa käyttöä ja skaalaa tarvittaessa ylös tai alas. Rajapinnan käytön seuranta auttaa jatkuvasti oppimaan lisää ja kehittämään suunnittelua ja toteutusta. Kannattaa siis kuunnella sekä käyttäjiä että katsoa rajapinnan käyttödataa.
+3. *Monitoroi käyttöä.* Seuraa käyttöä ja skaalaa tarvittaessa ylös tai alas. Rajapinnan käytön seuranta auttaa jatkuvasti oppimaan lisää ja kehittämään suunnittelua sekä toteutusta. Kannattaa siis kuunnella sekä käyttäjiä että katsoa myös rajapinnan käyttödataa.
 
 
 ### Mitä muuta kannattaisi ottaa huomioon?
@@ -38,12 +38,12 @@ Rajapintoihin liittyy muutama käsite, joita kannattaa myös huomioida.
 
 *Dataformaatti.* Sama rajapinta voi tukea useita dataformaatteja. Esimerkiksi JSON, XML tai joku muu. Teknologiat kehittyvät, joten dataformaatteja tulee jatkossa lisää.
 
-*Tietomalli,* joka määrittelee, miten datan sisältämät osat liittyvät toisiinsa. Tietomalli voidaan esittää graaffisesti esimerkiksi UML:n avulla.
+*Tietomalli,* joka määrittelee, miten datan sisältämät osat liittyvät toisiinsa. Tietomalli voidaan esittää graafisesti esimerkiksi UML:n avulla.
 
 
 ### Avoin rajapinta vai avoin rakenteellinen tiedosto (CSV, XML)?
 
-Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein. Niissä tapauksissa tiedostoja pitäisi muistaa ladata jatkuvasti (tietojen vanhentuminen) ja tiedostot ovat suuria kooltaan, jolloin niitä on usein haasteellista käsitellä. Tiedosto on hyvä taas silloin, kun dataa on vähän ja / tai data päivittyy harvoin (esimerkiksi kerran vuodessa tai harvemmin). Digitaalisen tiedon määrän arvioidaan kasvavan jopa 60 % vuodessa, joten avoimessa tiedossa ollaan suuressa mittakaavassa siirtymässä avoimista tiedostoista avoimiin rajapintoihin. Toisinaan voi olla järkevää tarjota sekä tiedosto että avoin rajapinta. Rajapinta mahdollistaa kuitenkin resurssitehokkaamman tavan toimia, koska sen ei tarvitse käsitellä "ylimääräistä" tietojoukkoa missään tiedon jalostamistamisen vaiheessa.
+Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein. Niissä tapauksissa tiedostoja pitäisi muistaa ladata jatkuvasti (tietojen vanhentuminen) ja tiedostot ovat suuria kooltaan, jolloin niitä on usein haasteellista käsitellä. Tiedosto on hyvä taas silloin, kun dataa on vähän ja/tai data päivittyy harvoin (esimerkiksi kerran vuodessa tai harvemmin). Digitaalisen tiedon määrän arvioidaan kasvavan jopa 60% vuodessa, joten avoimessa tiedossa ollaan suuressa mittakaavassa siirtymässä avoimista tiedostoista avoimiin rajapintoihin. Toisinaan voi olla järkevää tarjota sekä tiedosto että avoin rajapinta. Rajapinta mahdollistaa kuitenkin resurssitehokkaamman tavan toimia, koska sen ei tarvitse käsitellä "ylimääräistä" tietojoukkoa missään tiedon jalostamistamisen vaiheessa.
 
 
 ### Miksi ei anneta suoraa käyttöoikeuksia tietokantaan?

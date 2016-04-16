@@ -3,9 +3,9 @@
 ###Tarkoittaako määritelmä, että kaikki organisaation digitaalinen tieto on avattava avoimeksi dataksi?
 Ei tarkoita. Vaikka rajapinta on avoin, ei se tarkoita, että kaikkien tietojen tulisi olla avoimia. 
 Rajapinta kattaa usein pienen osajoukon koko organisaation informaatiosta. Tarpeen mukaisesti. Toisin sanoen rajapinnan kautta on 
-usein pääsy osaan tiedoista, ei kaikkeen tietoon.
+usein pääsy osaan tiedoista, ei kaikkeen tietoon. Alla olevassa kuvassa organisaatiolla on 4 erilaista avointa rajapintaa, jotka kattavat eri suuruiset ja eri osat organisaation digitaalisessa muodossa olevaa informaatiota. Vaikka kaikki rajapinnat ovat avoimia jää niiden ulkopuolelle merkittävä osa organisaation digitaalisesta tiedosta.
 
-![Tietojärjestelmissä oleva tieto vs. rajapinnan tarjoama tieto](rajapinta_vs_kaikki_tiedot.png)
+![Tietojärjestelmissä oleva tieto vs. rajapinnan tarjoama tieto](/rajapinta_vs_kaikki_tiedot.png)
 Format: ![Alt Text](url)
 
 ###Tarkoittaako määritelmä, että kenellä tahansa pitää olla oikeus päästä tietoon?
@@ -33,6 +33,9 @@ Tietomalli, joka määrittelee, miten datan sisältämät osat liittyvät toisii
 
 ###Avoin rajapinta vai avoin rakenteellinen tiedosto (CSV, XML)?
 Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein. Niissä tapauksissa tiedostoja pitäisi muistaa ladata jatkuvasti (tietojen vanhentuminen) ja tiedostot ovat suuria kooltaan, jolloin niitä on usein haasteellista käsitellä. Tiedosto on hyvä taas silloin, kun dataa on vähän ja / tai se päivittyy harvoin (esimerkiksi kerran vuodessa tai harvemmin). Digitaalisen tiedon määrän arvioidaan kasvavan jopa 60 % vuodessa, joten avoimessa tiedossa ollaan suuressa mittakaavassa siirtymässä avoimista tiedostoista avoimiin rajapintoihin. Toisinaan voi olla järkevää tarjota sekä tiedosto että avoin rajapinta.
+
+###Miksi ei anneta suoraa käyttöoikeuksia tietokantaan?
+Usein suorat tietokannan käyttöoikeudet eivät ole tietoturvallisia. Siksi väliin tarvitaan hyvä rajapinta, joka myös suojelee organisaatiota. Toisaalta api mahdollistaa informaation uudelleenmuotoilua ja esimerkiksi kuormituksentasausta.
 
 ### Mitä tämä kaikki tarkoittaa rahallisesti?
 Esimerkiksi Suomen toiseksi suurimmassa kaupungissa Espoossa on arvioitu, että oikein tehdyllä integraatioilla voidaan säästää noin 

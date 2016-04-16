@@ -9,6 +9,7 @@ Mahdollisuuksien mukaan suositus pyritään saamaan mukaan myös JHS-työhön ja
 
 Tätä määritelmää käyttää esimerkiksi Suomen Valtio ja Helsingin kaupunki.
 
+
 ## Määritelmän kirjoittajat ja tukijat
 
 Kirjoittamiseen ja kommentointiin ovat osallistuneet
@@ -16,13 +17,21 @@ lukuisien anonyymien kommentaattoreiden lisäksi:
 
 Antti Poikola, Otso Kivekäs, Joni Kettunen, Teemu Polo, Sami Laine, Jukka Aaltonen, Jarkko Moilanen, Jaakko Korhonen, Mika Honkanen, Otto Kekäläinen ja Martin von Willebrand.
 
+
 ### Taustatietoa
 Määritelmää ylläpitää Open Knowledge Finlandin alla toimiva [Open API –työryhmä](http://fi.okfn.org/wg/open-api/)
 
+
 ### Seuraavat organisaatiot ja yhteisöt tukevat määritelmää
 
-* [COSS ry.](http://coss.fi/)
-* [Open Knowledge Finland ry.](http://fi.okfn.org/)
-* [API:Suomi –yhteisö](http://apisuomi.fi/)
-* [Sampo Software Oy](http://samposoftware.com/)
-* [Forum Virium Helsinki Oy](http://www.forumvirium.fi/)
+- [COSS ry.](http://coss.fi/)
+- [Open Knowledge Finland ry.](http://fi.okfn.org/)
+- [API:Suomi -yhteisö](http://apisuomi.fi/)
+- [Sampo Software Oy](http://samposoftware.com/)
+- [Forum Virium Helsinki Oy](http://www.forumvirium.fi/)
+- [Helsingin kaupunki](http://www.hel.fi/)
+- [Espoon kaupunki](http://www.espoo.fi)
+- [Vantaan kaupunki](http://www.vantaa.fi)
+- [Tampereen kaupunki](http://www.tampere.fi)
+- [Turun kaupunki](http://www.turku.fi)
+- [Oulun kaupunki](http://www.oulu.fi)

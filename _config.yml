@@ -144,7 +144,7 @@ var_your_message: Viesti
 # You don't have to change these.
 
 exclude: [vendor]
-highlighter: pygments
+highlighter: rouge
 kramdown:
   input: GFM
 paginate_path: "/page-:num/"
@@ -157,3 +157,18 @@ defaults:
     values:
       layout: "post"
       excerpt_separator: "<!--more-->"
+
+
+# Conversion
+lsi:         false
+incremental: false
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
+
+# Plugins
+whitelist: []
+gems:      [jekyll-paginate]

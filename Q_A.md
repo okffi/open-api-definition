@@ -42,21 +42,21 @@ Integraatioihin tästä kohdistuu 20%, eli noin 1,7 miljoonaa euroa
 
 Hyötypotentiaaliksi arvioidaan seuraavanlaisesti (Espoon oma laskelma)
 
-|Kokonaiskustannukset|integraatiokustannukset|Säästöt integraatiosta|
+|Kokonaiskustannukset|Integraatiokustannukset|Säästöt integraatiosta|
 |---|---|---|---|
-|Suuret tietojärjestelmät|6 595 008|1 319 201|197 880|
-|Keskisuuret tietojärjestelmät| 3 553 075 | 710 615  | 142 123 |
-|Pienet tietojärjestelmät |645 824 | 96 873 | 19 374 |
-|Yhteensä|10 794 907| 2 126 690| 359 377 |
+|Suuret tietojärjestelmät|6 595 008 €|1 319 201 €|197 880 €|
+|Keskisuuret tietojärjestelmät| 3 553 075 €| 710 615 €| 142 123 €|
+|Pienet tietojärjestelmät |645 824 €| 96 873 €| 19 374 €|
+|Yhteensä|10 794 907 €| 2 126 690 €| 359 377 €|
 
 Uusien tietojärjestelmien kohdalla
 
-|Investointikustannukset|integraatiokustannukset|Säästöt integraatiosta|
+|Investointikustannukset|Integraatiokustannukset|Säästöt integraatiosta|
 |---|---|---|
-|8 600 000|1 720 000|602 000|
+|8 600 000 €|1 720 000 €|602 000 €|
 
 ||Säästöt per vuosi|
 |---|---|
-|Nykyiset tietojärjestelmät|359 377|
-|Uudet tietojärjestelmät|602 000|
-|Yhteensä|961 377|
+|Nykyiset tietojärjestelmät|359 377 €|
+|Uudet tietojärjestelmät|602 000 €|
+|Yhteensä|961 377 €|

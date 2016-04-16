@@ -41,6 +41,7 @@ Espoo investoi uusiin tietojärjestelmiin vuonna 2016 noin 8,6 miljoonaa euroa.
 Integraatioihin tästä kohdistuu 20%, eli noin 1,7 miljoonaa euroa
 
 Hyötypotentiaaliksi arvioidaan seuraavanlaisesti (Espoon oma laskelma)
+
 |Kokonaiskustannukset|integraatiokustannukset|Säästöt integraatiosta|
 |---|---|---|---|
 |Suuret tietojärjestelmät|6 595 008|1 319 201|197 880|
@@ -49,6 +50,7 @@ Hyötypotentiaaliksi arvioidaan seuraavanlaisesti (Espoon oma laskelma)
 |Yhteensä|10 794 907| 2 126 690| 359 377 |
 
 Uusien tietojärjestelmien kohdalla
+
 |Investointikustannukset|integraatiokustannukset|Säästöt integraatiosta|
 |---|---|---|
 |8 600 000|1 720 000|602 000|
@@ -58,8 +60,3 @@ Uusien tietojärjestelmien kohdalla
 |Nykyiset tietojärjestelmät|359 377|
 |Uudet tietojärjestelmät|602 000|
 |Yhteensä|961 377|
-
-
-
-
-

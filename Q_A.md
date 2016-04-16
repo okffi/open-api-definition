@@ -30,3 +30,36 @@ Tietomalli, joka määrittelee, miten datan sisältämät osat liittyvät toisii
 
 ###Avoin rajapinta vai avoin rakenteellinen tiedosto (CSV, XML)?
 Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein. Niissä tapauksissa tiedostoja pitäisi muistaa ladata jatkuvasti (tietojen vanhentuminen) ja tiedostot ovat suuria kooltaan, jolloin niitä on usein haasteellista käsitellä. Tiedosto on hyvä taas silloin, kun dataa on vähän ja / tai se päivittyy harvoin (esimerkiksi kerran vuodessa tai harvemmin). Digitaalisen tiedon määrän arvioidaan kasvavan jopa 60 % vuodessa, joten avoimessa tiedossa ollaan suuressa mittakaavassa siirtymässä avoimista tiedostoista avoimiin rajapintoihin. Toisinaan voi olla järkevää tarjota sekä tiedosto että avoin rajapinta.
+
+### Mitä tämä kaikki tarkoittaa rahallisesti?
+Esimerkiksi Suomen toiseksi suurimmassa kaupungissa Espoossa on arvioitu, että oikein tehdyllä integraatioilla voidaan säästää noin 
+1 000 000 euroa joka vuosi.
+
+Espoossa ja Turussa asiakastietojärjestelmän liittäminen toiminnanohjausjärjestelmään on maksanut noin 150 000 euroa. Liittämisen hintaan ei vaikuttanut, vaikka sama tietojärjestelmä-integraatio on toteutettu jo muissa kunnissa (se on ohjelmistotoimittajalla valmiina). Integraatioihin varattu budjetti on noin 20% koko tietojärjestelmäbudjetista tyypillisesti.
+
+Espoo investoi uusiin tietojärjestelmiin vuonna 2016 noin 8,6 miljoonaa euroa.
+Integraatioihin tästä kohdistuu 20%, eli noin 1,7 miljoonaa euroa
+
+Hyötypotentiaaliksi arvioidaan seuraavanlaisesti (Espoon oma laskelma)
+|Kokonaiskustannukset|integraatiokustannukset|Säästöt integraatiosta|
+|---|---|---|---|
+|Suuret tietojärjestelmät|6 595 008|1 319 201|197 880|
+|Keskisuuret tietojärjestelmät| 3 553 075 | 710 615  | 142 123 |
+|Pienet tietojärjestelmät |645 824 | 96 873 | 19 374 |
+|Yhteensä|10 794 907| 2 126 690| 359 377 |
+
+Uusien tietojärjestelmien kohdalla
+|Investointikustannukset|integraatiokustannukset|Säästöt integraatiosta|
+|---|---|---|
+|8 600 000|1 720 000|602 000|
+
+||Säästöt per vuosi|
+|---|---|
+|Nykyiset tietojärjestelmät|359 377|
+|Uudet tietojärjestelmät|602 000|
+|Yhteensä|961 377|
+
+
+
+
+

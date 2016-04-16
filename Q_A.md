@@ -38,15 +38,16 @@ Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein. Niissä 
 Usein suorat tietokannan käyttöoikeudet eivät ole tietoturvallisia. Siksi väliin tarvitaan hyvä rajapinta, joka myös suojelee organisaatiota. Toisaalta api mahdollistaa informaation uudelleenmuotoilua ja esimerkiksi kuormituksentasausta.
 
 ### Mitä tämä kaikki tarkoittaa rahallisesti?
-Esimerkiksi Suomen toiseksi suurimmassa kaupungissa Espoossa on arvioitu, että oikein tehdyllä integraatioilla voidaan säästää noin 
-1 000 000 euroa joka vuosi.
+Esimerkiksi Suomen toiseksi suurimmassa kaupungissa (noin 270 000 asukasta) Espoossa on arvioitu, että oikein tehdyllä integraatioilla voidaan säästää noin 1 000 000 euroa joka vuosi.
 
-Espoossa ja Turussa asiakastietojärjestelmän liittäminen toiminnanohjausjärjestelmään on maksanut noin 150 000 euroa. Liittämisen hintaan ei vaikuttanut, vaikka sama tietojärjestelmä-integraatio on toteutettu jo muissa kunnissa (se on ohjelmistotoimittajalla valmiina). Integraatioihin varattu budjetti on noin 20% koko tietojärjestelmäbudjetista tyypillisesti.
+Espoossa ja Turussa asiakastietojärjestelmän liittäminen toiminnanohjausjärjestelmään on maksanut noin 150 000 euroa. Liittämisen hintaan ei vaikuttanut, vaikka sama tietojärjestelmä-integraatio on toteutettu jo muissa kunnissa (ohjelmistotoimittajalla se on valmiina yhden toteutuksen jälkeen). Espoossa integraatioihin varattu budjetti on noin 20% koko tietojärjestelmäbudjetista.
 
 Espoo investoi uusiin tietojärjestelmiin vuonna 2016 noin 8,6 miljoonaa euroa.
-Integraatioihin tästä kohdistuu 20%, eli noin 1,7 miljoonaa euroa. Tämä laskenta-arvo on täysin tekninen, eikä se huomioi paljon suurempia kustannuksia, kuten sitä, kuinka paljon maksaa, kun työntekijät tekevät päällekkäistä työtä syöttämällä samoja tietoja useampiin tietojärjestelmiin.
+Integraatioihin tästä kohdistuu 20%, eli noin 1,7 miljoonaa euroa. Tämä laskenta-arvo on täysin tekninen, eikä se huomioi paljon suurempia kustannuksia, kuten sitä, kuinka paljon maksaa, kun työntekijät tekevät päällekkäistä työtä syöttämällä samoja tietoja useampiin tietojärjestelmiin tai esimerkiksi millaisia vaaratilanteita ja kustannuksiksia syntyy, jos toimintaan virheelliseen / vanhentuneen tiedon perusteella.
 
-Hyötypotentiaaliksi arvioidaan seuraavanlaisesti (Espoon oma laskelma)
+Tässä Espoon itse tekemät arviot kustannussäästöistä.
+
+Hyötypotentiaaliksi arvioidaan seuraavanlaisesti
 
 |Kokonaiskustannukset|Integraatiokustannukset|Säästöt integraatiosta|
 |---|---|---|---|
@@ -66,3 +67,5 @@ Uusien tietojärjestelmien kohdalla
 |Nykyiset tietojärjestelmät|359 377 €|
 |Uudet tietojärjestelmät|602 000 €|
 |Yhteensä|961 377 €|
+
+Lähde: https://wiki.julkict.fi/julkict/juhta/juhta-n-kokousasiakirjat-vuonna-2016/1-juhta-n-kokous-17-2.2016/Liite%203%20C-%20Integraatioalustan%20rahoitushakemus.zip/view

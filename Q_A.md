@@ -96,4 +96,4 @@ on vaikeaa arvioida:
 Avoimilla ja hyvin toimivilla rajapinnoilla on siis merkittävä vaikutus organisaatioiden toimintaan ja tehokkuuteen.
 
 
-**Lähde:** [JUHTA:n kokousasiakirjat vuonna 2016 / 1. JUHTA:n kokous 17.2.2016 / Liite 3 C, Integraatioalustan rahoitushakemus](https://wiki.julkict.fi/julkict/juhta/juhta-n-kokousasiakirjat-vuonna-2016/1-juhta-n-kokous-17-2.2016/Liite%203%20C-%20Integraatioalustan%20rahoitushakemus.zip/view)
+**Lähde:** Julkisen hallinnon tietohallinnon neuvottelukunta ([JUHTA:n kokousasiakirjat vuonna 2016 / 1. JUHTA:n kokous 17.2.2016 / Liite 3 C, Integraatioalustan rahoitushakemus](https://wiki.julkict.fi/julkict/juhta/juhta-n-kokousasiakirjat-vuonna-2016/1-juhta-n-kokous-17-2.2016/Liite%203%20C-%20Integraatioalustan%20rahoitushakemus.zip/view))

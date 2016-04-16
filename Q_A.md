@@ -5,6 +5,9 @@ Ei tarkoita. Vaikka rajapinta on avoin, ei se tarkoita, että kaikkien tietojen 
 Rajapinta kattaa usein pienen osajoukon koko organisaation informaatiosta. Tarpeen mukaisesti. Toisin sanoen rajapinnan kautta on 
 usein pääsy osaan tiedoista, ei kaikkeen tietoon.
 
+![Tietojärjestelmissä oleva tieto vs. rajapinnan tarjoama tieto](rajapinta_vs_kaikki_tiedot.png)
+Format: ![Alt Text](url)
+
 ###Tarkoittaako määritelmä, että kenellä tahansa pitää olla oikeus päästä tietoon?
 Ei tarkoita. Vaikka rajapinta olisi avoin, ei se tarkoita, että siihen käyttöoikeus pitäisi olla kaikilla. Rajapinnan 
 käyttöä voidaan hallita esimerkiksi api-avaimella (joka ainoastaan tunnistaa käyttäjän 
@@ -38,7 +41,7 @@ Esimerkiksi Suomen toiseksi suurimmassa kaupungissa Espoossa on arvioitu, että 
 Espoossa ja Turussa asiakastietojärjestelmän liittäminen toiminnanohjausjärjestelmään on maksanut noin 150 000 euroa. Liittämisen hintaan ei vaikuttanut, vaikka sama tietojärjestelmä-integraatio on toteutettu jo muissa kunnissa (se on ohjelmistotoimittajalla valmiina). Integraatioihin varattu budjetti on noin 20% koko tietojärjestelmäbudjetista tyypillisesti.
 
 Espoo investoi uusiin tietojärjestelmiin vuonna 2016 noin 8,6 miljoonaa euroa.
-Integraatioihin tästä kohdistuu 20%, eli noin 1,7 miljoonaa euroa
+Integraatioihin tästä kohdistuu 20%, eli noin 1,7 miljoonaa euroa. Tämä laskenta-arvo on täysin tekninen, eikä se huomioi paljon suurempia kustannuksia, kuten sitä, kuinka paljon maksaa, kun työntekijät tekevät päällekkäistä työtä syöttämällä samoja tietoja useampiin tietojärjestelmiin.
 
 Hyötypotentiaaliksi arvioidaan seuraavanlaisesti (Espoon oma laskelma)
 

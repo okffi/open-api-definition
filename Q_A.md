@@ -84,4 +84,12 @@ Tässä Espoon itse tekemät arviot kustannussäästöistä.
 |Uudet tietojärjestelmät|602 000 €|
 |Yhteensä|961 377 €|
 
+Espoon tapauksessa laskelmat ovat suuntaa-antavia. Esimerkiksi näiden asioiden arvoa rahallisesti 
+on vaikeaa arvioida:
+1.	Päällekkäisen tiedon syöttäminen (turhaa työtä) ja käsittelyyn kuluva työaika. Se on joka tapauksessa suuri menoerä. Työntekijöiden aikaa tuhlaantuu tähän joka viikko useita tunteja eri arvioiden mukaan. Esimerkiksi Espoon tapauksessa kaupungin työntekijöitä on 14 000. Lisäksi jokaisen asiakkaan aikaa kuluu, kun omia tietoja joutuu syöttämään ja päivittämään eri tietojärjestelmiin esimerkiksi paperilomakkeilla.
+2.	Organisaation virheellinen toiminta väärän tai vanhentuneen tiedon perusteella ja tämän kerrannaisvaikutukset.
+3.	Syntymättä jäävät yritykset ja innovaatiot, kun tietoa ei pysty käsittelemään vapaasti.
+
+Avoimilla ja hyvin toimivilla rajapinnoilla on siis merkittävä vaikutus organisaatioiden toimintaan ja tehokkuuteen.
+
 Lähde: https://wiki.julkict.fi/julkict/juhta/juhta-n-kokousasiakirjat-vuonna-2016/1-juhta-n-kokous-17-2.2016/Liite%203%20C-%20Integraatioalustan%20rahoitushakemus.zip/view

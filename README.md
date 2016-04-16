@@ -20,7 +20,7 @@ Seuraavat organisaatiot ja yhteisöt tukevat määritelmää
 - [API:Suomi -yhteisö](http://apisuomi.fi/)
 - [Sampo Software Oy](http://samposoftware.com/)
 - [Forum Virium Helsinki Oy](http://www.forumvirium.fi/)
-- [Helsingin kaupunki](http://www.helsinki.fi)
+- [Helsingin kaupunki](http://www.hel.fi/)
 - [Espoon kaupunki](http://www.espoo.fi)
 - [Vantaan kaupunki](http://www.vantaa.fi)
 - [Tampereen kaupunki](http://www.tampere.fi)

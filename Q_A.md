@@ -3,9 +3,6 @@ layout: page
 title: Usein kysyttyjä kysymyksiä ja vastauksia
 ---
 
-# Usein kysyttyjä kysymyksiä ja vastauksia
-
-
 ### Tarkoittaako määritelmä, että kaikki organisaation digitaalinen tieto on avattava avoimeksi dataksi?
 
 Ei tarkoita. Vaikka rajapinta on avoin, ei se tarkoita, että kaikkien tietojen tulisi olla avoimia. 

@@ -2,11 +2,10 @@
 layout: page
 title: Usein kysyttyjä kysymyksiä ja vastauksia
 ---
-
 ### Tarkoittaako määritelmä, että kaikki organisaation digitaalinen tieto on avattava avoimeksi dataksi?
 
-Ei tarkoita. Vaikka rajapinta on avoin, ei se tarkoita, että kaikkien tietojen tulisi olla avoimia. 
-Rajapinta kattaa usein pienen osajoukon koko organisaation informaatiosta. Tarpeen mukaisesti. Toisin sanoen rajapinnan kautta on usein pääsy osaan tiedoista, ei kaikkeen tietoon. Alla olevassa kuvassa organisaatiolla on 4 erilaista avointa rajapintaa (Open Application Protocol Interface, OAPI), jotka kattavat eri suuruiset ja eri osat organisaation digitaalisessa muodossa olevaa informaatiota. Vaikka kaikki rajapinnat ovat avoimia jää niiden ulkopuolelle merkittävä osa organisaation digitaalisesta tiedosta. Tässä esimerkissä (kuva 1) avoimet rajapinnat 1-4 käsittelevät eri tietoa, mutta teoriassa osa tiedoista voisi myös olla jollain tavalla päällekkäisiä (käsittelevät osittain samaa tietoa).
+Ei tarkoita. Avoin rajapinta ei tarkoita, että kaikkien tietojen tulisi olla avoimia. 
+Usein rajapinta kattaa pienen osajoukon koko organisaation digitaalisesta informaatiosta. Toisin sanoen rajapinnan kautta on usein pääsy osaan tiedoista, ei kaikkeen tietoon. Alla olevassa kuvassa organisaatiolla on 4 erilaista avointa rajapintaa (Open Application Protocol Interface, OAPI), jotka kattavat eri suuruiset ja eri osat organisaation digitaalisessa muodossa olevaa informaatiota. Vaikka kaikki rajapinnat ovat avoimia jää niiden ulkopuolelle merkittävä osa organisaation digitaalisesta tiedosta. Tässä esimerkissä (kuva 1) avoimet rajapinnat 1-4 käsittelevät eri tietoa, mutta teoriassa osa tiedoista voisi myös olla jollain tavalla päällekkäisiä (käsittelevät osittain samaa tietoa).
 
 ![Tietojärjestelmissä oleva tieto vs. rajapinnan tarjoama tieto](/organisaation_tiedot_eri_tietojarjestelmissa.png)
 
@@ -14,49 +13,42 @@ Rajapinta kattaa usein pienen osajoukon koko organisaation informaatiosta. Tarpe
 
 ### Tarkoittaako määritelmä, että kenellä tahansa pitää olla oikeus päästä tietoon?
 
-Ei tarkoita. Vaikka rajapinta olisi avoin, ei se tarkoita, että siihen käyttöoikeus pitäisi olla kaikilla. Rajapinnan käyttöä voidaan hallita esimerkiksi API-avaimella (joka ainoastaan tunnistaa käyttäjän tilastointitarkoituksessa, ei varsinaisesti tietoturvamielessä) tai vaikkapa SSL:n yli käyttäjätunnuksella ja salasanalla.
+Ei tarkoita. Avoin rajapinta ei tarkoita suoraa, että siihen käyttöoikeus pitäisi olla kaikilla. Rajapinnan käyttöä voidaan hallita esimerkiksi API-avaimella (joka ainoastaan tunnistaa käyttäjän tilastointitarkoituksessa, ei varsinaisesti tietoturvamielessä) tai vaikkapa SSL:n yli käyttäjätunnuksella ja salasanalla. Usein rajapinta ja sen tietoturvallisuus erotetaan osittain toisistaan.
 
 
 ### Mitä hyötyä määritelmästä on?
 
-Suomessa ostetaan ohjelmistoja ja niihin liittyviä palveluita miljardeilla euroilla joka vuosi. Julkinen sektori 
-(kunnat ja valtio) ovat Suomessa suurin tietotekniikan hyödyntäjä. Jotta todellinen tietojohtaminen (tiedolla johtaminen ja tiedon johtaminen) voisi tietojärjestelmien kohdalla toteutua, on niiden siiloutuneesta rakenteesta päästävä eroon. Nykytilanteessa samoja tietoja on useissa eri järjestelmissä ja organisaatioiden informaatio arkkitehtuuri on syntynyt sattuminen ja valmiiden ohjelmistojen kautta. Rajapinnat ovat digitaalisten informaatiovirtojen avainkomponetteja. Avoimen rajapinnan määritelmää voi käyttää esimerkiksi tarjouspyyntöjen osana julkisen ja yksityisensektorin tietojärjestelmäkilpailutuksissa. Määritelmällä torjutaan ns. toimittalukkoa ja edistetään alan tervettä kilpailua, josta on pitkällä aikavälillä hyötyä kaikille. Toisaalta avoimuus helpottaa kokeilukulttuuria sekä tukee teknologista organisaation ketteryyttä.
+Suomessa ostetaan ohjelmistoja ja niihin liittyviä palveluita arviolta miljardeilla euroilla joka vuosi. Julkinen sektori 
+(kunnat ja valtio) ovat Suomessa suurin tietotekniikan hyödyntäjä. Jotta todellinen tietojohtaminen (tiedolla johtaminen ja tiedon johtaminen) voisi tietojärjestelmien kohdalla toteutua, on niiden siiloutuneesta rakenteesta päästävä eroon. Nykytilanteessa samoja tietoja on useissa eri järjestelmissä ja organisaatioiden informaatioarkkitehtuuri on muotoitunut sattuminen ja valmiiden ohjelmistojen sisältämien tietorakenteiden kautta. Rajapinnat ovat digitaalisten informaatiovirtojen avainkomponetteja. Avoimen rajapinnan määritelmää voi käyttää esimerkiksi tarjouspyyntöjen osana julkisen ja yksityisensektorin tietojärjestelmäkilpailutuksissa. Määritelmällä torjutaan ns. toimittalukkoa ja edistetään alan tervettä kilpailua, josta on pitkällä aikavälillä hyötyä kaikille. Toisaalta avoimuus helpottaa digitaalisuuteen liittyvää kokeilukulttuuria sekä tukee teknologista organisaation ketteryyttä.
 
 
 ### Miten rajapintoja voi käytännössä rakentaa?
 
-Lähes kaikille ohjelmointikielille (esimerkiksi Node.js, PHP, Python, Ruby, Objective-C, .NET ja Java) on olemassa valmiita toteutuksia rajapinnoista. Niitä vähän muokkaamalla saa nopeasti luotua rajapinnan. Esimerkiksi avoimen lähdekoodin Mulesoftilla (https://www.mulesoft.com/) uuden rajapinnan luominen onnistuu ohjelmiston ammattilaiselta jopa 15 minuutissa. Usein rajapintaa tehdessä kannattaa kuitenkin suunnitella sitä käyttäjälähtöisesti, jolloin suunnittelluun kannattaa käyttää enemmän aikaa. Mulesoft on tarkoitettu eri tietojärjestelmien väliseen tietojen integrointiin. Se tukee sekä kooditason muokkausta että graafista työskentelyä. Myös monet pilvipohjaiset alustat, kuten Amazon Web Services (AWS), tarjoavat valmiita työkaluja rajapintojen rakentamiseen.
+Lähes kaikille ohjelmointikielille (esimerkiksi Node.js, PHP, Python, Ruby, Objective-C, .NET ja Java) on olemassa valmiita toteutuksia rajapinnoista. Niitä vähän muokkaamalla saa nopeasti luotua rajapinnan. Esimerkiksi avoimen lähdekoodin Mulesoftilla (https://www.mulesoft.com/) uuden rajapinnan luominen onnistuu ohjelmiston ammattilaiselta jopa 15 minuutissa. Hyvä rajapinta on kuitenkin huolellisesti asiakaslähtöinen, suunniteltu ja testattu, jolloin aikaa kuluu enemmän. Mulesoft on tarkoitettu eri tietojärjestelmien väliseen tietojen integrointiin. Se tukee sekä kooditason muokkausta että graafista työskentelyä. Myös monet pilvipohjaiset alustat, kuten Amazon Web Services (AWS), tarjoavat valmiita työkaluja rajapintojen rakentamiseen.
 
 
-### Mitä rajapintojen rakentamisessa pitäisi aivan erityisesti huomioida?
-
-1. *Luotettavuus.* Rajapinnan on oltava huokutteleva, jotta kehittäjät kiinnostuvat siitä. Mikäli rajapinta ei ole luotettava, ei sen päälle rakenneta helposti mitään. Toisaalta myös rajapinnan elinkaari on jollain tasolla näkyvissä. Ohjelmistokehittäjä ei lähtökohtaisesti halua rakentaa sellaisen rajapinnan päälle, joka ei toimi oikein tai jos rajapinnan olemassaolosta lähitulevaisuudessa ei voi olla varma.
-2. *Käyttäjät.* Suunnittele ja toteuta rajapinnat todelliseen asiakastarpeeseen ja tue niiden käyttäjiä kaikin mahdollisin keinoin.
-3. *Monitoroi käyttöä.* Seuraa käyttöä ja skaalaa tarvittaessa ylös tai alas. Rajapinnan käytön seuranta auttaa jatkuvasti oppimaan lisää ja kehittämään suunnittelua sekä toteutusta. Kannattaa siis kuunnella sekä käyttäjiä että katsoa myös rajapinnan käyttödataa.
-
-
-### Mitä muuta kannattaisi ottaa huomioon?
-
-Rajapintoihin liittyy muutama käsite, joita kannattaa myös huomioida.
+### Mitä muita avainkäsitteitä avoimeen rajapintaan liittyy?
 
 *Dataformaatti.* Sama rajapinta voi tukea useita dataformaatteja. Esimerkiksi JSON, XML tai joku muu. Teknologiat kehittyvät, joten dataformaatteja tulee jatkossa lisää.
 
 *Tietomalli,* joka määrittelee, miten datan sisältämät osat liittyvät toisiinsa. Tietomalli voidaan esittää graafisesti esimerkiksi UML:n avulla.
 
 
-### Avoin rajapinta vai avoin rakenteellinen tiedosto (CSV, XML)?
+### Avoin rajapinta vai tiedosto (esimerkiksi CSV, XML)?
 
-Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein. Niissä tapauksissa tiedostoja pitäisi muistaa ladata jatkuvasti (tietojen vanhentuminen) ja tiedostot ovat suuria kooltaan, jolloin niitä on usein haasteellista käsitellä. Tiedosto on hyvä taas silloin, kun dataa on vähän ja/tai data päivittyy harvoin (esimerkiksi kerran vuodessa tai harvemmin). Digitaalisen tiedon määrän arvioidaan kasvavan jopa 60% vuodessa, joten avoimessa tiedossa ollaan suuressa mittakaavassa siirtymässä avoimista tiedostoista avoimiin rajapintoihin. Toisinaan voi olla järkevää tarjota sekä tiedosto että avoin rajapinta. Rajapinta mahdollistaa kuitenkin resurssitehokkaamman tavan toimia, koska sen ei tarvitse käsitellä "ylimääräistä" tietojoukkoa missään tiedon jalostamistamisen vaiheessa.
+Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein.  Tiedosto on hyvä taas silloin, kun dataa on vähän ja/tai data päivittyy harvoin (esimerkiksi kerran vuodessa tai harvemmin). Digitaalisen tiedon määrän arvioidaan kasvavan jopa 60% vuodessa, joten avoimessa tiedossa ollaan suuressa mittakaavassa siirtymässä avoimista tiedostoista avoimiin rajapintoihin. Toisinaan voi olla järkevää tarjota sekä tiedosto että avoin rajapinta.
 
 
 ### Miksi ei anneta suoraa käyttöoikeuksia tietokantaan?
 
-Usein suorat tietokannan käyttöoikeudet eivät ole tietoturvallisia. Siksi väliin tarvitaan hyvä rajapinta, joka myös suojelee organisaatiota. Toisaalta api mahdollistaa informaation uudelleenmuotoilua ja esimerkiksi kuormituksentasausta.
+Usein suorat tietokannan käyttöoikeudet eivät ole tietoturvallisia. Siksi väliin tarvitaan hyvä rajapinta, joka myös suojelee organisaatiota. Toisaalta rajapinta mahdollistaa informaation uudelleenmuotoilua ja esimerkiksi kuormituksentasausta.
 
 ### Miten avoin rajapinta liittyy kansalliseen palveluväylään eli X-roadiin?
-Periaatteessa X-road tarjoaa rajapintoja siihen liittyneille organisaatiolle. X-roadiin liittymistä on kuitenkin rajoitettu ja se on lähinnä tarkoitettu julkisten organisaatioiden käyttöön. Toisaalta X-road on ennenkaikkea eri organisaatioiden välinen teknologia siirtää ja integroida tietoa. Sen lisäksi täytyy toteuttaa erikseen yleensä organisaation sisäinen integraatio eri tietojärjestelmien välillä. Aika näyttää, mihin suuntaan X-road kehittyy.
+Periaatteessa X-road tarjoaa rajapintoja siihen liittyneille organisaatiolle. X-roadiin liittymistä on kuitenkin rajoitettu ja se on lähinnä tarkoitettu julkisten organisaatioiden käyttöön. Toisaalta X-road on ennenkaikkea organisaatioiden välinen teknologia / integraatio siirtää tietoa. Sen lisäksi täytyy toteuttaa erikseen yleensä organisaation sisäinen integraatio eri tietojärjestelmien välillä.
 
 ### Mitä tämä kaikki tarkoittaa rahallisesti?
+
+*Rahallista hyödystä voidaan ainoastaan luoda arvio. Asia on niin monimutkainen laskea, ettei täsmäälistä arviota käytännössä pystytä esittämään kuin osakokonaisuuksista. Tässä esimerkissä on käytetty Espoon ilmoittamia lukuja, joihin lähdeviite löytyy tämän tekstin perästä.* 
 
 Esimerkiksi Suomen toiseksi suurimmassa kaupungissa Espoossa (noin 270 000 asukasta) on arvioitu, että oikein tehdyllä integraatioilla voidaan säästää noin 1 000 000 euroa joka vuosi.
 

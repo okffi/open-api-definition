@@ -1,3 +1,8 @@
+---
+layout: page
+title: Usein kysyttyjä kysymyksiä ja vastauksia
+---
+
 # Usein kysyttyjä kysymyksiä ja vastauksia
 
 

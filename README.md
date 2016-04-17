@@ -30,7 +30,8 @@ Seuraavat organisaatiot ja yhteisöt tukevat määritelmää
 
 ## Keskustelua
 
-- Määritelmän kehitysversio on kommentoitavissa osoitteessa http://okf.fi/avoin-rajapinta
+- Määritelmän kehitysversio on kommentoitavissa osoitteessa: http://okf.fi/avoin-rajapinta
+
 Seuraavissa ryhmissä käytiin keskustelua tästä määritelmästä ennen julkaisua ja sen jälkeen:
 1. Keskusteluketju Finnish Open Data Ecosystem -facebookryhmässä 
 2. Keskusteluketju JulkICT-strategia linkedin-ryhmässä 

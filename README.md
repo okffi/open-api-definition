@@ -28,11 +28,14 @@ Seuraavat organisaatiot ja yhteisöt tukevat määritelmää
 - [Oulun kaupunki](http://www.oulu.fi)
 
 
-## Keskustelua:
+## Keskustelua
 
 - Määritelmän kehitysversio on kommentoitavissa osoitteessa http://okf.fi/avoin-rajapinta
-Keskusteluketju Finnish Open Data Ecosystem -facebookryhmässä ja toinen keskusteluketju JulkICT-strategia linkedin-ryhmässä sekä kolmas Kokonaisarkitehtuurin osaamisyhteisössä. Otso Kivekäs on myös blogannut aiheesta.
-
+Seuraavissa ryhmissä käytiin keskustelua tästä määritelmästä ennen julkaisua ja sen jälkeen:
+1. Keskusteluketju Finnish Open Data Ecosystem -facebookryhmässä 
+2. Keskusteluketju JulkICT-strategia linkedin-ryhmässä 
+3. Kokonaisarkitehtuurin osaamisyhteisössä. 
+Otso Kivekäs on myös blogannut aiheesta.
 
 Versio: 1.0 / Julkaistu: 11.10.2014
 https://github.com/okffi/open-api-definition/blob/master/fi/avoin-rajapinta.md

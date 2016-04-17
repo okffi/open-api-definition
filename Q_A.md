@@ -7,7 +7,8 @@ Ei tarkoita. Vaikka rajapinta on avoin, ei se tarkoita, että kaikkien tietojen 
 Rajapinta kattaa usein pienen osajoukon koko organisaation informaatiosta. Tarpeen mukaisesti. Toisin sanoen rajapinnan kautta on usein pääsy osaan tiedoista, ei kaikkeen tietoon. Alla olevassa kuvassa organisaatiolla on 4 erilaista avointa rajapintaa (Open Application Protocol Interface, OAPI), jotka kattavat eri suuruiset ja eri osat organisaation digitaalisessa muodossa olevaa informaatiota. Vaikka kaikki rajapinnat ovat avoimia jää niiden ulkopuolelle merkittävä osa organisaation digitaalisesta tiedosta. Tässä esimerkissä (kuva 1) avoimet rajapinnat 1-4 käsittelevät eri tietoa, mutta teoriassa osa tiedoista voisi myös olla jollain tavalla päällekkäisiä (käsittelevät osittain samaa tietoa).
 
 ![Tietojärjestelmissä oleva tieto vs. rajapinnan tarjoama tieto](/organisaation_tiedot_eri_tietojarjestelmissa.png)
-Kuva 1. Kuvassa pinta-ala havainnollistaa tiedon määrää. OAPIt 1-4 käsittelevät organisaation sähköisen tiedon eri osia. Osa organisaation tiedosta jää avoimien rajapintojen ulkopuolelle. Tyypillisesti tälläistä tietoa on esimerkiksi salassapidettävä tieto julkisella sektorilla tai esimerkiksi Henkilötietolain ja tulevan EU:n henkilötieto-asetuksen (engl. General Data Protection Regulation, GDPR) alla oleva tieto.
+
+*Kuva 1. Kuvassa pinta-ala havainnollistaa tiedon määrää. OAPIt 1-4 käsittelevät organisaation sähköisen tiedon eri osia. Osa organisaation tiedosta jää avoimien rajapintojen ulkopuolelle. Tyypillisesti tälläistä tietoa on esimerkiksi salassapidettävä tieto julkisella sektorilla tai esimerkiksi Henkilötietolain ja tulevan EU:n henkilötieto-asetuksen (engl. General Data Protection Regulation, GDPR) alla oleva tieto.*
 
 ### Tarkoittaako määritelmä, että kenellä tahansa pitää olla oikeus päästä tietoon?
 
@@ -94,6 +95,5 @@ on vaikeaa arvioida:
 3.	Syntymättä jäävät yritykset ja innovaatiot, kun tietoa ei pysty käsittelemään vapaasti.
 
 Avoimilla ja hyvin toimivilla rajapinnoilla on siis merkittävä vaikutus organisaatioiden toimintaan ja tehokkuuteen.
-
 
 **Lähde:** Julkisen hallinnon tietohallinnon neuvottelukunta ([JUHTA:n kokousasiakirjat vuonna 2016 / 1. JUHTA:n kokous 17.2.2016 / Liite 3 C, Integraatioalustan rahoitushakemus](https://wiki.julkict.fi/julkict/juhta/juhta-n-kokousasiakirjat-vuonna-2016/1-juhta-n-kokous-17-2.2016/Liite%203%20C-%20Integraatioalustan%20rahoitushakemus.zip/view))

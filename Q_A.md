@@ -29,12 +29,12 @@ Lähes kaikille ohjelmointikielille (esimerkiksi Node.js, PHP, Python, Ruby, Obj
 
 *Dataformaatti*. Sama rajapinta voi tukea useita dataformaatteja. Esimerkiksi JSON, XML tai joku muu. Teknologiat kehittyvät, joten dataformaatteja tulee jatkossa lisää.
 
-*Tietomalli*. Määrittelee, miten datan sisältämät osat (sanat, käsitteet) liittyvät toinen toisiinsa. Tietomalli voidaan esittää graaffisesti esimerkiksi UML:n avulla. Tietomallin sisältämät käsitteet kannnattaa pyrkiä kuvaamaan standardoitujen aihealueisiin (tietojärjestelmän käyttötarkoitus) liittyvien sanastojen avulla, jolloin tietomallista tulee paremmin myös organisaation / aihe-alueen ulkopuolella toimiva.
+*Tietomalli*. Määrittelee, miten datan sisältämät osat (sanat, käsitteet) liittyvät toinen toisiinsa. Tietomalli voidaan esittää graaffisesti esimerkiksi UML:n avulla. Tietomallin sisältämät käsitteet kannnattaa pyrkiä kuvaamaan standardoitujen aihealueisiin (tietojärjestelmän käyttötarkoitus) liittyvien sanastojen avulla, jolloin tietomallista tulee paremmin myös organisaation / aihe-alueen ulkopuolella toimiva. Kaikkialla yhteensopivia käsitteitä (engl. Golden record) ei ole vielä onnistuttu luomaan, koska tieto ja tietomallin käsitteet ymmärretään aina eri tavoin tiedon eri konteksteissa.
 
 
 ### Avoin rajapinta vai tiedosto (esimerkiksi CSV, XML)?
 
-Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein. Tiedosto on hyvä taas silloin, kun dataa on vähän ja/tai data päivittyy harvoin (esimerkiksi kerran vuodessa tai harvemmin). Digitaalisen tiedon määrän arvioidaan kasvavan jopa 60% vuodessa, joten avoimessa tiedossa ollaan suuressa mittakaavassa siirtymässä avoimista tiedostoista avoimiin rajapintoihin. Toisinaan voi olla järkevää tarjota sekä tiedosto että avoin rajapinta.
+Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein. Tiedosto on hyvä taas silloin, kun dataa on vähän ja/tai data päivittyy harvoin (esimerkiksi kerran vuodessa tai harvemmin). Digitaalisen tiedon määrän arvioidaan kasvavan jopa 40% vuodessa, joten avoimessa tiedossa ollaan suuressa mittakaavassa siirtymässä avoimista tiedostoista avoimiin rajapintoihin. Toisinaan voi olla järkevää tarjota sekä tiedosto että avoin rajapinta.
 
 
 ### Miksi ei vaan anneta suoraa käyttöoikeuksia tietokantaan?
@@ -86,7 +86,8 @@ on vaikeaa arvioida:
 
 Avoimilla ja hyvin toimivilla rajapinnoilla on siis merkittävä vaikutus organisaatioiden toimintaan ja tehokkuuteen. Siksi niiden määrittely on tärkeää ja tarpeellista työtä.
 
-**Lähde:** Julkisen hallinnon tietohallinnon neuvottelukunta ([JUHTA:n kokousasiakirjat vuonna 2016 / 1. JUHTA:n kokous 17.2.2016 / Liite 3 C, Integraatioalustan rahoitushakemus](https://wiki.julkict.fi/julkict/juhta/juhta-n-kokousasiakirjat-vuonna-2016/1-juhta-n-kokous-17-2.2016/Liite%203%20C-%20Integraatioalustan%20rahoitushakemus.zip/view))
+####Lähteet 
+Julkisen hallinnon tietohallinnon neuvottelukunta ([JUHTA:n kokousasiakirjat vuonna 2016 / 1. JUHTA:n kokous 17.2.2016 / Liite 3 C, Integraatioalustan rahoitushakemus](https://wiki.julkict.fi/julkict/juhta/juhta-n-kokousasiakirjat-vuonna-2016/1-juhta-n-kokous-17-2.2016/Liite%203%20C-%20Integraatioalustan%20rahoitushakemus.zip/view))
 
 [Why Software Is Eating The World](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
 

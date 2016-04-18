@@ -17,12 +17,12 @@ Avoin rajapinta ei tarkoita suoraa, että siihen käyttöoikeus pitäisi olla ka
 
 ### Mitä hyötyä määritelmästä on?
 
-Suomessa ostetaan ohjelmistoja ja niihin liittyviä palveluita arviolta miljardeilla euroilla joka vuosi. Lisäksi "ohjelmistot syövät maailman" (engl. Software Is Eating The World), jolla tarkoitetaan, että tietotekniikan ja ohjelmistojen rooli osana mitä tahansa toimintaa kasvaa jatkuvasti. Julkinen sektori (kunnat ja valtio) ovat Suomessa suurin tietotekniikan hyödyntäjä. Jotta todellinen tietojohtaminen (tiedolla johtaminen ja tiedon johtaminen) voisi tietojärjestelmien kohdalla toteutua, on niiden siiloutuneesta rakenteesta päästävä eroon. Nykytilanteessa samoja tietoja on useissa eri järjestelmissä ja organisaatioiden informaatioarkkitehtuuri on muotoitunut sattuminen ja valmiiden ohjelmistojen sisältämien tietorakenteiden kautta. Rajapinnat ovat digitaalisten informaatiovirtojen avainkomponetteja. Avoimen rajapinnan määritelmää voi käyttää esimerkiksi tarjouspyyntöjen osana julkisen ja yksityisensektorin tietojärjestelmäkilpailutuksissa. Määritelmällä torjutaan ns. toimittalukkoa ja edistetään alan tervettä kilpailua, josta on pitkällä aikavälillä hyötyä kaikille. Toisaalta avoimuus helpottaa digitaalisuuteen liittyvää kokeilukulttuuria sekä tukee teknologista organisaation ketteryyttä.
+Suomessa ostetaan ohjelmistoja ja niihin liittyviä palveluita arviolta miljardeilla euroilla joka vuosi. Lisäksi "ohjelmistot syövät maailman" (engl. Software Is Eating The World), jolla tarkoitetaan, että tietotekniikan ja ohjelmistojen rooli osana mitä tahansa toimintaa kasvaa jatkuvasti[^1]. Julkinen sektori (kunnat ja valtio) ovat Suomessa suurin tietotekniikan hyödyntäjä. Jotta todellinen tietojohtaminen (tiedolla johtaminen ja tiedon johtaminen) voisi tietojärjestelmien kohdalla toteutua, on niiden siiloutuneesta rakenteesta päästävä eroon. Nykytilanteessa samoja tietoja on useissa eri järjestelmissä ja organisaatioiden informaatioarkkitehtuuri on muotoitunut sattuminen ja valmiiden ohjelmistojen sisältämien tietorakenteiden kautta. Rajapinnat ovat digitaalisten informaatiovirtojen avainkomponetteja. Avoimen rajapinnan määritelmää voi käyttää esimerkiksi tarjouspyyntöjen osana julkisen ja yksityisensektorin tietojärjestelmäkilpailutuksissa. Määritelmällä torjutaan ns. toimittalukkoa ja edistetään alan tervettä kilpailua, josta on pitkällä aikavälillä hyötyä kaikille. Toisaalta avoimuus helpottaa digitaalisuuteen liittyvää kokeilukulttuuria sekä tukee teknologista organisaation ketteryyttä.
 
 
 ### Miten rajapintoja voi käytännössä rakentaa?
 
-Lähes kaikille ohjelmointikielille (esimerkiksi Node.js, PHP, Python, Ruby, Objective-C, .NET ja Java) on olemassa valmiita toteutuksia rajapinnoista. Niitä vähän muokkaamalla saa nopeasti luotua rajapinnan. Esimerkiksi avoimen lähdekoodin Mulesoftilla (https://www.mulesoft.com/) uuden rajapinnan luominen onnistuu ammattilaiselta jopa 15 minuutissa. Hyvä rajapinta on kuitenkin asiakaslähtöinen, huolellisesti sekä suunniteltu että testattu, jolloin aikaa kuluu huomattavasti enemmän. Mulesoft on tarkoitettu eri tietojärjestelmien väliseen tietojen integrointiin. Se tukee sekä kooditason muokkausta että graafista työskentelyä. Myös monet pilvipohjaiset alustat, kuten esimerkiksi Amazon Web Services (AWS), tarjoavat valmiita työkaluja rajapintojen rakentamiseen (Amazon API Gateway).
+Lähes kaikille ohjelmointikielille (esimerkiksi Node.js, PHP, Python, Ruby, Objective-C, .NET ja Java) on olemassa valmiita toteutuksia rajapinnoista[^2]. Niitä vähän muokkaamalla saa nopeasti luotua rajapinnan. Esimerkiksi avoimen lähdekoodin Mulesoftilla (https://www.mulesoft.com/) uuden rajapinnan luominen onnistuu ammattilaiselta jopa 15 minuutissa. Hyvä rajapinta on kuitenkin asiakaslähtöinen, huolellisesti sekä suunniteltu että testattu, jolloin aikaa kuluu huomattavasti enemmän. Mulesoft on tarkoitettu eri tietojärjestelmien väliseen tietojen integrointiin. Se tukee sekä kooditason muokkausta että graafista työskentelyä. Myös monet pilvipohjaiset alustat, kuten esimerkiksi Amazon Web Services (AWS), tarjoavat valmiita työkaluja rajapintojen rakentamiseen (Amazon API Gateway).
 
 
 ### Mitä muita avainkäsitteitä avoimeen rajapintaan liittyy?
@@ -34,7 +34,7 @@ Lähes kaikille ohjelmointikielille (esimerkiksi Node.js, PHP, Python, Ruby, Obj
 
 ### Avoin rajapinta vai tiedosto (esimerkiksi CSV, XML)?
 
-Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein. Tiedosto on hyvä taas silloin, kun dataa on vähän ja/tai data päivittyy harvoin (esimerkiksi kerran vuodessa tai harvemmin). Digitaalisen tiedon määrän arvioidaan kasvavan jopa 40% vuodessa, joten avoimessa tiedossa ollaan suuressa mittakaavassa siirtymässä avoimista tiedostoista avoimiin rajapintoihin. Toisinaan voi olla järkevää tarjota sekä tiedosto että avoin rajapinta.
+Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein. Tiedosto on hyvä taas silloin, kun dataa on vähän ja/tai data päivittyy harvoin (esimerkiksi kerran vuodessa tai harvemmin). Digitaalisen tiedon määrän arvioidaan kasvavan jopa 40% vuodessa[^3], joten avoimessa tiedossa ollaan suuressa mittakaavassa siirtymässä avoimista tiedostoista avoimiin rajapintoihin. Toisinaan voi olla järkevää tarjota sekä tiedosto että avoin rajapinta.
 
 
 ### Miksi ei vaan anneta suoraa käyttöoikeuksia tietokantaan?
@@ -91,6 +91,8 @@ Avoimilla ja hyvin toimivilla rajapinnoilla on siis merkittävä vaikutus organi
 ####Lähteet 
 Julkisen hallinnon tietohallinnon neuvottelukunta ([JUHTA:n kokousasiakirjat vuonna 2016 / 1. JUHTA:n kokous 17.2.2016 / Liite 3 C, Integraatioalustan rahoitushakemus](https://wiki.julkict.fi/julkict/juhta/juhta-n-kokousasiakirjat-vuonna-2016/1-juhta-n-kokous-17-2.2016/Liite%203%20C-%20Integraatioalustan%20rahoitushakemus.zip/view))
 
-[Why Software Is Eating The World](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
+[^1]: [Why Software Is Eating The World](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
 
-[Data Growth, Business Opportunities, and the IT Imperatives](http://www.emc.com/leadership/digital-universe/2014iview/executive-summary.htm)
+[^2]: [List of 40 tutorials on how to create an API](http://blog.mashape.com/list-of-40-tutorials-on-how-to-create-an-api/)
+
+[^3]: [Data Growth, Business Opportunities, and the IT Imperatives](http://www.emc.com/leadership/digital-universe/2014iview/executive-summary.htm)

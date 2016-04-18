@@ -4,16 +4,15 @@ title: Usein kysyttyjä kysymyksiä ja vastauksia
 ---
 ### Tarkoittaako määritelmä, että kaikki organisaation digitaalinen tieto on avattava avoimeksi dataksi?
 
-Avoin rajapinta ei tarkoita, että kaikkien tietojen tulisi olla avoimia. 
-Usein rajapinta kattaa pienen osajoukon koko organisaation digitaalisesta informaatiosta. Toisin sanoen rajapinnan kautta on usein pääsy osaan tiedoista, ei kaikkeen tietoon. Asiaa havainnollistavassa esimerkissä organisaatiolla on 4 erilaista avointa rajapintaa (engl. Open Application Protocol Interface, OAPI), jotka kattavat eri suuruiset ja eri osat organisaation digitaalisessa muodossa olevaa informaatiota. Vaikka kaikki rajapinnat ovat avoimia jää niiden ulkopuolelle merkittävä osa organisaation digitaalisesta tiedosta. Tässä esimerkissä (kuva 1) avoimet rajapinnat 1-4 käsittelevät eri tietoa, mutta teoriassa osa tiedoista voisi myös olla jollain tavalla päällekkäisiä (käsittelevät osittain samaa tietoa).
+Avoin rajapinta ei tarkoita, että kaikkien tietojen tulisi automaattisesti olla avoimia. Usein rajapinta kattaa pienen osajoukon koko organisaation digitaalisesta informaatiosta. Toisin sanoen rajapinnan kautta on usein pääsy osaan tiedoista, ei kaikkeen tietoon. Asiaa havainnollistavassa esimerkissä organisaatiolla on 4 erilaista avointa rajapintaa (engl. Open Application Protocol Interface, OAPI), jotka kattavat eri suuruiset ja eri osat organisaation digitaalisessa muodossa olevaa informaatiota. Vaikka kaikki rajapinnat ovat avoimia, jää niiden ulkopuolelle merkittävä osa organisaation digitaalisesta tiedosta. Tässä esimerkissä (kuva 1) avoimet rajapinnat 1-4 käsittelevät eri tietoa, mutta teoriassa osa tiedoista voisi myös olla jollain tavalla päällekkäisiä (käsittelevät osittain samaa tietoa). Usein organisaatiot keskittyvät ydintiedonhallintaan (engl. Master Data Management, MDM), jolloin organisaatiosta tunnistetaan olennainen digitaalinen tieto.
 
 ![Tietojärjestelmissä oleva tieto vs. rajapinnan tarjoama tieto](/organisaation_tiedot_eri_tietojarjestelmissa.png)
 
-*Kuva 1. Kuvassa pinta-ala havainnollistaa tiedon määrää. OAPIt 1-4 käsittelevät organisaation sähköisen tiedon eri osia. Osa organisaation tiedosta jää avoimien rajapintojen ulkopuolelle. Tyypillisesti tälläistä tietoa on esimerkiksi salassapidettävä tieto julkisella sektorilla tai esimerkiksi Henkilötietolain ja tulevan EU:n henkilötieto-asetuksen (engl. General Data Protection Regulation, GDPR) alla oleva tieto.*
+*Kuva 1. Kuvassa pinta-ala havainnollistaa tiedon määrää. OAPIt 1-4 käsittelevät organisaation digitaalisen tiedon eri osia. Osa organisaation tiedosta jää avoimien rajapintojen ulkopuolelle. Tyypillisesti tälläistä tietoa on esimerkiksi salassapidettävä tieto julkisella sektorilla tai esimerkiksi Henkilötietolain ja tulevan EU:n henkilötieto-asetuksen (engl. General Data Protection Regulation, GDPR) alla oleva tieto.*
 
-### Tarkoittaako määritelmä, että kenellä tahansa pitää olla oikeus päästä tietoon?
+### Tarkoittaako avoimen rajapinnan määritelmä, että kenellä tahansa pitää käyttöoikeus avoimen rajapinnan tarjoamaan tietoon?
 
-Avoin rajapinta ei tarkoita suoraa, että siihen käyttöoikeus pitäisi olla kaikilla. Rajapinnan käyttöä voidaan hallita esimerkiksi API-avaimella (joka ainoastaan tunnistaa käyttäjän tilastointitarkoituksessa, ei varsinaisesti tietoturvamielessä) tai vaikkapa SSL:n yli käyttäjätunnuksella ja salasanalla. Usein rajapinta ja sen tietoturvallisuus erotetaan osittain tai kokonaan toisistaan. Esimerkiksi käyttäjien oikeuksia voidaan hallinnoida OAuth 2.0:lla tai jollain muulla teknologialla.
+Avoin rajapinta ei tarkoita suoraa, että siihen käyttöoikeus pitäisi olla kaikilla. Rajapinnan käyttöä voidaan hallita esimerkiksi API-avaimella (tunnistaa käyttäjän jollain tasolla tilastointitarkoituksessa) tai vaikkapa SSL:n yli käyttäjätunnuksella ja salasanalla. Usein rajapinta ja sen tietoturvallisuus erotetaan osittain tai kokonaan toisistaan. Esimerkiksi käyttäjien oikeuksia voidaan hallinnoida OAuth 2.0:lla tai jollain muulla teknologialla.
 
 
 ### Mitä hyötyä määritelmästä on?
@@ -24,14 +23,14 @@ Suomessa ostetaan ohjelmistoja ja niihin liittyviä palveluita arviolta miljarde
 
 ### Miten rajapintoja voi käytännössä rakentaa?
 
-Lähes kaikille ohjelmointikielille (esimerkiksi Node.js, PHP, Python, Ruby, Objective-C, .NET ja Java) on olemassa valmiita toteutuksia rajapinnoista. Niitä vähän muokkaamalla saa nopeasti luotua rajapinnan. Esimerkiksi avoimen lähdekoodin Mulesoftilla (https://www.mulesoft.com/) uuden rajapinnan luominen onnistuu ohjelmiston ammattilaiselta jopa 15 minuutissa. Hyvä rajapinta on kuitenkin asiakaslähtöinen, huolellisesti sekä suunniteltu että testattu, jolloin aikaa kuluu enemmän. Mulesoft on tarkoitettu eri tietojärjestelmien väliseen tietojen integrointiin. Se tukee sekä kooditason muokkausta että graafista työskentelyä. Myös monet pilvipohjaiset alustat, kuten Amazon Web Services (AWS), tarjoavat valmiita työkaluja rajapintojen rakentamiseen.
+Lähes kaikille ohjelmointikielille (esimerkiksi Node.js, PHP, Python, Ruby, Objective-C, .NET ja Java) on olemassa valmiita toteutuksia rajapinnoista. Niitä vähän muokkaamalla saa nopeasti luotua rajapinnan. Esimerkiksi avoimen lähdekoodin Mulesoftilla (https://www.mulesoft.com/) uuden rajapinnan luominen onnistuu ammattilaiselta jopa 15 minuutissa. Hyvä rajapinta on kuitenkin asiakaslähtöinen, huolellisesti sekä suunniteltu että testattu, jolloin aikaa kuluu huomattavasti enemmän. Mulesoft on tarkoitettu eri tietojärjestelmien väliseen tietojen integrointiin. Se tukee sekä kooditason muokkausta että graafista työskentelyä. Myös monet pilvipohjaiset alustat, kuten esimerkiksi Amazon Web Services (AWS), tarjoavat valmiita työkaluja rajapintojen rakentamiseen (Amazon API Gateway).
 
 
 ### Mitä muita avainkäsitteitä avoimeen rajapintaan liittyy?
 
 *Dataformaatti.* Sama rajapinta voi tukea useita dataformaatteja. Esimerkiksi JSON, XML tai joku muu. Teknologiat kehittyvät, joten dataformaatteja tulee jatkossa lisää.
 
-*Tietomalli,* joka määrittelee, miten datan sisältämät osat liittyvät toisiinsa. Tietomalli voidaan esittää graafisesti esimerkiksi UML:n avulla.
+*Tietomalli,* joka määrittelee, miten datan sisältämät osat liittyvät toisiinsa. Tietomalli voidaan esittää graafisesti esimerkiksi UML:n avulla. Tietomallin sisältämät käsitteet kannnattaa pyrkiä kuvaamaan standardoitujen aihealueisiin (tietojärjestelmän käyttötarkoitus) liittyvien sanastojen avulla.
 
 
 ### Avoin rajapinta vai tiedosto (esimerkiksi CSV, XML)?
@@ -41,18 +40,18 @@ Rajapinta on hyvä silloin, jos dataa on paljon ja se päivittyy usein. Tiedosto
 
 ### Miksi ei vaan anneta suoraa käyttöoikeuksia tietokantaan?
 
-Usein suorat tietokannan käyttöoikeudet eivät ole tietoturvallisia (mm. SQL injektio). Siksi väliin tarvitaan hyvä rajapinta, joka myös suojelee organisaatiota. Toisaalta rajapinta mahdollistaa informaation uudelleenmuotoilua ja esimerkiksi kuormituksentasausta.
+Usein suorat tietokannan käyttöoikeudet eivät ole tietoturvallisia (mm. SQL injektio). Siksi väliin tarvitaan hyvä rajapinta, joka myös suojelee organisaation tietoresursseja. Toisaalta rajapinta mahdollistaa informaation uudelleenmuotoilua ja esimerkiksi kuormituksentasausta.
 
 ### Miten avoin rajapinta liittyy kansalliseen palveluväylään eli X-roadiin?
-Periaatteessa X-road tarjoaa rajapintoja siihen liittyneille organisaatiolle. X-roadiin liittymistä on kuitenkin rajoitettu ja se on lähinnä tarkoitettu julkisten organisaatioiden käyttöön. Toisaalta X-road on ennenkaikkea organisaatioiden välinen teknologia / integraatio siirtää tietoa eri organisaatioiden välillä. Sen lisäksi täytyy toteuttaa erikseen yleensä organisaation sisäinen integraatio eri tietojärjestelmien välillä. Toisaalta API talous rakentaa kokonaan erilaista pisteestä A pisteeseen B välistä integraatiota yleensä internetin yli.
+Periaatteessa X-road tarjoaa rajapintoja siihen liittyneille organisaatiolle. X-roadiin liittymistä on kuitenkin rajoitettu ja se on lähinnä tarkoitettu julkisten organisaatioiden käyttöön. Toisaalta X-road on ennenkaikkea organisaatioiden välinen teknologia / integraatioteknologia siirtää tietoa eri organisaatioiden välillä. Sen lisäksi täytyy toteuttaa erikseen organisaation sisäinen integraatio organisaation eri tietojärjestelmien välillä.
 
 ### Mitä tämä kaikki tarkoittaa rahallisesti?
 
-*Rahallista hyödystä voidaan ainoastaan luoda arvio. Asia on niin monimutkainen laskea, ettei täsmäälistä arviota käytännössä pystytä esittämään kuin osakokonaisuuksista. Tässä esimerkissä on käytetty Espoon ilmoittamia lukuja, joihin lähdeviite löytyy tämän tekstin perästä. Lukujen pääasiallinen tarkoitus on antaa jonkinlaista arvioita siitä, miten avoin rajapinta vaikuttaa kokonaisuuteen.* 
-
-Suomen toiseksi suurimmassa kaupungissa Espoossa (noin 270 000 asukasta) on arvioitu, että oikein tehdyllä integraatioilla voidaan säästää noin 1 000 000 euroa joka vuosi.
+*Rahallista hyödystä voidaan ainoastaan arvioida hyvin karkea arvio. Kaikki hyödyt on niin monimutkainen asia laskea, ettei täsmäälistä arviota käytännössä pystytä esittämään kuin osakokonaisuuksista. Tässä esimerkissä on käytetty Espoon ilmoittamia lukuja, joihin lähdeviite löytyy tämän tekstin perästä. Lukujen pääasiallinen tarkoitus on antaa jonkinlaista arvioita siitä, miten avoin rajapinta vaikuttaa kokonaisuuteen.* 
 
 Espoossa ja Turussa asiakastietojärjestelmän liittäminen toiminnanohjausjärjestelmään on maksanut noin 150 000 euroa. Liittämisen hintaan ei vaikuttanut, vaikka sama tietojärjestelmä-integraatio on toteutettu jo muissa kunnissa (ohjelmistotoimittajalla se on valmiina yhden toteutuksen jälkeen). Espoossa integraatioihin varattu budjetti on noin 20% koko tietojärjestelmäbudjetista.
+
+Suomen toiseksi suurimmassa kaupungissa Espoossa (noin 270 000 asukasta) on arvioitu, että oikein tehdyllä integraatioilla voidaan säästää noin 1 000 000 euroa joka vuosi.
 
 Espoo investoi uusiin tietojärjestelmiin vuonna 2016 noin 8,6 miljoonaa euroa. **Integraatioihin tästä kohdistuu 20%, eli noin 1,7 miljoonaa euroa.** Tämä laskenta-arvo on täysin tekninen. Se ei huomioi työntekijöiden tehottomasta toiminnasta syntyviä kustannuksia. Integraatioiden puuttuessa työntekijät tekevät päällekkäistä työtä syöttämällä samoja tietoja useampiin tietojärjestelmiin. 
 
@@ -80,7 +79,7 @@ Espoo investoi uusiin tietojärjestelmiin vuonna 2016 noin 8,6 miljoonaa euroa. 
 Espoon tapauksessa laskelmat ovat suuntaa-antavia. Esimerkiksi näiden asioiden arvoa rahallisesti 
 on vaikeaa arvioida:
 
-1.	Päällekkäisen tiedon syöttämiseen (turhaa työtä) ja käsittelyyn kuluva työaika. Tämä on suurin kustannus, jota voidaan arvioida vain hyvin karkealla tasolla. Työntekijöiden aikaa tuhlaantuu tähän joka viikko useita tunteja eri arvioiden mukaan. Esimerkiksi Espoon tapauksessa kaupungin työntekijöitä on 14 000, joiden työaikaa kuluu päällekkäiseen ja turhaa työhön tietojärjestelmien parissa. Lisäksi jokaisen kuntalaisen aikaa menee hukkaan, kun omia tietoja joutuu syöttämään ja päivittämään eri tietojärjestelmiin esimerkiksi paperilomakkeilla (täysin turhaa, koska tiedot eivät siirry järjestelmästä toiseen automaattisesti rajapintojen sulkeutuneisuuden takia).
+1.	Päällekkäisen tiedon syöttämiseen (turhaa työtä) ja käsittelyyn kuluva työaika. Tämä on suurin kustannus, jota voidaan arvioida vain hyvin karkealla tasolla. Työntekijöiden aikaa tuhlaantuu tähän joka viikko useita tunteja eri arvioiden mukaan. Esimerkiksi Espoon tapauksessa kaupungin työntekijöitä on noin 14 000, joiden työaikaa kuluu päällekkäiseen ja turhaa työhön tietojärjestelmien parissa. Lisäksi jokaisen kuntalaisen aikaa menee hukkaan, kun omia tietoja joutuu syöttämään ja päivittämään eri tietojärjestelmiin esimerkiksi paperilomakkeilla (täysin turhaa, koska tiedot eivät siirry järjestelmästä toiseen automaattisesti rajapintojen sulkeutuneisuuden takia).
 
 2.	Organisaation virheellinen toiminta väärän tai vanhentuneen tiedon perusteella ja tämän kerrannaisvaikutukset. Tehdäänkö esimerkiksi kunnassa / kaupungissa viisaita päätöksiä, jos ne perustuvat vain valistuneeseen arvaukseen varsinaisen oikean tiedon sijaan?
 

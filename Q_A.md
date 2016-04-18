@@ -97,4 +97,4 @@ Julkisen hallinnon tietohallinnon neuvottelukunta ([JUHTA:n kokousasiakirjat vuo
 
 [^3]: [Data Growth, Business Opportunities, and the IT Imperatives](http://www.emc.com/leadership/digital-universe/2014iview/executive-summary.htm)
 
-[^4]: [The MDM Golden Record is Dead, Rest in Peace – Welcome Interpreted Interoperable Attributes] (https://www.researchgate.net/publication/290446955_The_MDM_Golden_Record_is_Dead_Rest_in_Peace_-_Welcome_Interpreted_Interoperable_Attributes)
+[^4]: [The MDM Golden Record is Dead, Rest in Peace – Welcome Interpreted Interoperable Attributes](https://www.researchgate.net/publication/290446955_The_MDM_Golden_Record_is_Dead_Rest_in_Peace_-_Welcome_Interpreted_Interoperable_Attributes)

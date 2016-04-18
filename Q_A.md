@@ -29,7 +29,7 @@ Lähes kaikille ohjelmointikielille (esimerkiksi Node.js, PHP, Python, Ruby, Obj
 
 *Dataformaatti*. Sama rajapinta voi tukea useita dataformaatteja. Esimerkiksi JSON, XML tai joku muu. Teknologiat kehittyvät, joten dataformaatteja tulee jatkossa lisää.
 
-*Tietomalli*. Määrittelee, miten datan sisältämät osat (sanat, käsitteet) liittyvät toinen toisiinsa. Tietomalli voidaan esittää graaffisesti esimerkiksi UML:n avulla. Tietomallin sisältämät käsitteet kannnattaa pyrkiä kuvaamaan standardoitujen aihealueisiin (tietojärjestelmän käyttötarkoitus) liittyvien sanastojen avulla, jolloin tietomallista tulee paremmin myös organisaation / aihe-alueen ulkopuolella toimiva. Kaikkialla yhteensopivia käsitteitä (engl. Golden record) ei ole vielä onnistuttu luomaan, koska tieto ja tietomallin käsitteet ymmärretään aina eri tavoin tiedon eri konteksteissa.
+*Tietomalli*. Määrittelee, miten datan sisältämät osat (sanat, käsitteet) liittyvät toinen toisiinsa. Tietomalli voidaan esittää graaffisesti esimerkiksi UML:n avulla. Tietomallin sisältämät käsitteet kannnattaa pyrkiä kuvaamaan standardoitujen aihealueisiin (tietojärjestelmän käyttötarkoitus) liittyvien sanastojen avulla, jolloin tietomallista tulee paremmin myös organisaation / aihe-alueen ulkopuolella toimiva. Kaikkialla yhteensopivia käsitteitä (engl. Golden record) ei ole vielä onnistuttu luomaan, koska tieto ja tietomallin käsitteet ymmärretään aina eri tavoin tiedon eri konteksteissa[^4].
 
 
 ### Avoin rajapinta vai tiedosto (esimerkiksi CSV, XML)?
@@ -96,3 +96,5 @@ Julkisen hallinnon tietohallinnon neuvottelukunta ([JUHTA:n kokousasiakirjat vuo
 [^2]: [List of 40 tutorials on how to create an API](http://blog.mashape.com/list-of-40-tutorials-on-how-to-create-an-api/)
 
 [^3]: [Data Growth, Business Opportunities, and the IT Imperatives](http://www.emc.com/leadership/digital-universe/2014iview/executive-summary.htm)
+
+[^4]: [The MDM Golden Record is Dead, Rest in Peace – Welcome Interpreted Interoperable Attributes] (https://www.researchgate.net/publication/290446955_The_MDM_Golden_Record_is_Dead_Rest_in_Peace_-_Welcome_Interpreted_Interoperable_Attributes)

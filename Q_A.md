@@ -69,6 +69,8 @@ Espoo investoi uusiin tietojärjestelmiin vuonna 2016 noin 8,6 miljoonaa euroa. 
 |---|---|---|
 |8 600 000 €|1 720 000 €|602 000 €|
 
+####Yhteensä
+
 ||Säästöt per vuosi|
 |---|---|
 |Nykyiset tietojärjestelmät|359 377 €|
@@ -78,11 +80,11 @@ Espoo investoi uusiin tietojärjestelmiin vuonna 2016 noin 8,6 miljoonaa euroa. 
 Espoon tapauksessa laskelmat ovat suuntaa-antavia. Esimerkiksi näiden asioiden arvoa rahallisesti 
 on vaikeaa arvioida:
 
-1.	Päällekkäisen tiedon syöttämiseen (turhaa työtä) ja käsittelyyn kuluva työaika. Tämä on suurin kustannus, jota voidaan arvioida vain hyvin karkealla tasolla. Työntekijöiden aikaa tuhlaantuu tähän joka viikko useita tunteja eri arvioiden mukaan. Esimerkiksi Espoon tapauksessa kaupungin työntekijöitä on noin 14 000, joiden työaikaa kuluu päällekkäiseen ja turhaa työhön tietojärjestelmien parissa. Lisäksi jokaisen kuntalaisen aikaa menee hukkaan, kun omia tietoja joutuu syöttämään ja päivittämään eri tietojärjestelmiin esimerkiksi paperilomakkeilla (täysin turhaa, koska tiedot eivät siirry järjestelmästä toiseen automaattisesti rajapintojen sulkeutuneisuuden takia).
+Päällekkäisen tiedon syöttämiseen (turhaa työtä) ja käsittelyyn kuluva työaika. Tämä on suurin kustannus, jota voidaan arvioida vain hyvin karkealla tasolla. Työntekijöiden aikaa tuhlaantuu tähän joka viikko useita tunteja eri arvioiden mukaan. Esimerkiksi Espoon tapauksessa kaupungin työntekijöitä on noin 14 000, joiden työaikaa kuluu päällekkäiseen ja turhaa työhön tietojärjestelmien parissa. Lisäksi jokaisen kuntalaisen aikaa menee hukkaan, kun omia tietoja joutuu syöttämään ja päivittämään eri tietojärjestelmiin esimerkiksi paperilomakkeilla (täysin turhaa, koska tiedot eivät siirry järjestelmästä toiseen automaattisesti rajapintojen sulkeutuneisuuden takia).
 
-2.	Organisaation virheellinen toiminta väärän tai vanhentuneen tiedon perusteella ja tämän kerrannaisvaikutukset. Tehdäänkö esimerkiksi kunnassa / kaupungissa viisaita päätöksiä, jos ne perustuvat vain valistuneeseen arvaukseen varsinaisen oikean tiedon sijaan?
+Organisaation virheellinen toiminta väärän tai vanhentuneen tiedon perusteella ja tämän kerrannaisvaikutukset. Tehdäänkö esimerkiksi kunnassa / kaupungissa viisaita päätöksiä, jos ne perustuvat vain valistuneeseen arvaukseen varsinaisen oikean tiedon sijaan?
 
-3.	Syntymättä jäävät yritykset ja innovaatiot, kun tietoa ei pysty käsittelemään vapaasti. Suomi on korkean osaamisen maa, jossa tulevaisuuden menestys perustuu korkeaan osaamiseen eli tietointesiiviseen liiketoimintaan. Sen kehittymistä haittaa, jos dataa (tietotalouden raaka-ainetta) ei ole saatavilla sulkeutuneiden tietojärjestelmien takia.
+Syntymättä jäävät yritykset ja innovaatiot, kun tietoa ei pysty käsittelemään vapaasti. Suomi on korkean osaamisen maa, jossa tulevaisuuden menestys perustuu korkeaan osaamiseen eli tietointesiiviseen liiketoimintaan. Sen kehittymistä haittaa, jos dataa (tietotalouden raaka-ainetta) ei ole saatavilla sulkeutuneiden tietojärjestelmien takia.
 
 Avoimilla ja hyvin toimivilla rajapinnoilla on siis merkittävä vaikutus organisaatioiden toimintaan ja tehokkuuteen. Siksi niiden määrittely on tärkeää ja tarpeellista työtä.
 

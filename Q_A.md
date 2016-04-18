@@ -4,7 +4,7 @@ title: Usein kysyttyjä kysymyksiä ja vastauksia
 ---
 ### Tarkoittaako määritelmä, että kaikki organisaation digitaalinen tieto on avattava avoimeksi dataksi?
 
-Avoin rajapinta ei tarkoita, että kaikkien tietojen tulisi automaattisesti olla avoimia. Usein rajapinta kattaa pienen osajoukon koko organisaation digitaalisesta informaatiosta. Toisin sanoen rajapinnan kautta on usein pääsy osaan tiedoista, ei kaikkeen tietoon. Asiaa havainnollistavassa esimerkissä organisaatiolla on 4 erilaista avointa rajapintaa (engl. Open Application Protocol Interface, OAPI), jotka kattavat eri suuruiset ja eri osat organisaation digitaalisessa muodossa olevaa informaatiota. Vaikka kaikki rajapinnat ovat avoimia, jää niiden ulkopuolelle merkittävä osa organisaation digitaalisesta tiedosta. Tässä esimerkissä (kuva 1) avoimet rajapinnat 1-4 käsittelevät eri tietoa, mutta teoriassa osa tiedoista voisi myös olla jollain tavalla päällekkäisiä (käsittelevät osittain samaa tietoa). Usein organisaatiot keskittyvät ydintiedonhallintaan (engl. Master Data Management, MDM), jolloin organisaatiosta tunnistetaan olennainen digitaalinen tieto.
+Avoin rajapinta ei suoraa tarkoita, että kaikkien tietojen tulisi automaattisesti olla avoimia. Usein rajapinta kattaa pienen osajoukon koko organisaation digitaalisesta informaatiosta. Toisin sanoen rajapinnan kautta on usein pääsy osaan tiedoista, ei kaikkeen tietoon. Asiaa havainnollistavassa esimerkissä organisaatiolla on 4 erilaista avointa rajapintaa (engl. Open Application Protocol Interface, OAPI), jotka kattavat eri suuruiset ja eri osat organisaation digitaalisessa muodossa olevaa informaatiota. Vaikka kaikki rajapinnat ovat avoimia, jää niiden ulkopuolelle merkittävä osa organisaation digitaalisesta tiedosta. Tässä esimerkissä (kuva 1) avoimet rajapinnat 1-4 käsittelevät eri tietoa, mutta teoriassa osa tiedoista voisi myös olla jollain tavalla päällekkäisiä (käsittelevät osittain samaa tietoa). Usein organisaatiot keskittyvät ydintiedonhallintaan (engl. Master Data Management, MDM), jolloin organisaatiosta tunnistetaan olennainen digitaalinen tieto.
 
 ![Tietojärjestelmissä oleva tieto vs. rajapinnan tarjoama tieto](/organisaation_tiedot_eri_tietojarjestelmissa.png)
 
@@ -17,8 +17,7 @@ Avoin rajapinta ei tarkoita suoraa, että siihen käyttöoikeus pitäisi olla ka
 
 ### Mitä hyötyä määritelmästä on?
 
-Suomessa ostetaan ohjelmistoja ja niihin liittyviä palveluita arviolta miljardeilla euroilla joka vuosi. Julkinen sektori 
-(kunnat ja valtio) ovat Suomessa suurin tietotekniikan hyödyntäjä. Jotta todellinen tietojohtaminen (tiedolla johtaminen ja tiedon johtaminen) voisi tietojärjestelmien kohdalla toteutua, on niiden siiloutuneesta rakenteesta päästävä eroon. Nykytilanteessa samoja tietoja on useissa eri järjestelmissä ja organisaatioiden informaatioarkkitehtuuri on muotoitunut sattuminen ja valmiiden ohjelmistojen sisältämien tietorakenteiden kautta. Rajapinnat ovat digitaalisten informaatiovirtojen avainkomponetteja. Avoimen rajapinnan määritelmää voi käyttää esimerkiksi tarjouspyyntöjen osana julkisen ja yksityisensektorin tietojärjestelmäkilpailutuksissa. Määritelmällä torjutaan ns. toimittalukkoa ja edistetään alan tervettä kilpailua, josta on pitkällä aikavälillä hyötyä kaikille. Toisaalta avoimuus helpottaa digitaalisuuteen liittyvää kokeilukulttuuria sekä tukee teknologista organisaation ketteryyttä.
+Suomessa ostetaan ohjelmistoja ja niihin liittyviä palveluita arviolta miljardeilla euroilla joka vuosi. Lisäksi "ohjelmistot syövät maailman" (engl. Software Is Eating The World), jolla tarkoitetaan, että tietotekniikan ja ohjelmistojen rooli osana mitä tahansa toimintaa kasvaa jatkuvasti. Julkinen sektori (kunnat ja valtio) ovat Suomessa suurin tietotekniikan hyödyntäjä. Jotta todellinen tietojohtaminen (tiedolla johtaminen ja tiedon johtaminen) voisi tietojärjestelmien kohdalla toteutua, on niiden siiloutuneesta rakenteesta päästävä eroon. Nykytilanteessa samoja tietoja on useissa eri järjestelmissä ja organisaatioiden informaatioarkkitehtuuri on muotoitunut sattuminen ja valmiiden ohjelmistojen sisältämien tietorakenteiden kautta. Rajapinnat ovat digitaalisten informaatiovirtojen avainkomponetteja. Avoimen rajapinnan määritelmää voi käyttää esimerkiksi tarjouspyyntöjen osana julkisen ja yksityisensektorin tietojärjestelmäkilpailutuksissa. Määritelmällä torjutaan ns. toimittalukkoa ja edistetään alan tervettä kilpailua, josta on pitkällä aikavälillä hyötyä kaikille. Toisaalta avoimuus helpottaa digitaalisuuteen liittyvää kokeilukulttuuria sekä tukee teknologista organisaation ketteryyttä.
 
 
 ### Miten rajapintoja voi käytännössä rakentaa?
@@ -28,9 +27,9 @@ Lähes kaikille ohjelmointikielille (esimerkiksi Node.js, PHP, Python, Ruby, Obj
 
 ### Mitä muita avainkäsitteitä avoimeen rajapintaan liittyy?
 
-*Dataformaatti.* Sama rajapinta voi tukea useita dataformaatteja. Esimerkiksi JSON, XML tai joku muu. Teknologiat kehittyvät, joten dataformaatteja tulee jatkossa lisää.
+*Dataformaatti*. Sama rajapinta voi tukea useita dataformaatteja. Esimerkiksi JSON, XML tai joku muu. Teknologiat kehittyvät, joten dataformaatteja tulee jatkossa lisää.
 
-*Tietomalli,* joka määrittelee, miten datan sisältämät osat liittyvät toisiinsa. Tietomalli voidaan esittää graafisesti esimerkiksi UML:n avulla. Tietomallin sisältämät käsitteet kannnattaa pyrkiä kuvaamaan standardoitujen aihealueisiin (tietojärjestelmän käyttötarkoitus) liittyvien sanastojen avulla.
+*Tietomalli*. Määrittelee, miten datan sisältämät osat (sanat, käsitteet) liittyvät toinen toisiinsa. Tietomalli voidaan esittää graaffisesti esimerkiksi UML:n avulla. Tietomallin sisältämät käsitteet kannnattaa pyrkiä kuvaamaan standardoitujen aihealueisiin (tietojärjestelmän käyttötarkoitus) liittyvien sanastojen avulla, jolloin tietomallista tulee paremmin myös organisaation / aihe-alueen ulkopuolella toimiva.
 
 
 ### Avoin rajapinta vai tiedosto (esimerkiksi CSV, XML)?
@@ -57,7 +56,7 @@ Espoo investoi uusiin tietojärjestelmiin vuonna 2016 noin 8,6 miljoonaa euroa. 
 
 #### Hyötypotentiaaliksi arvioidaan seuraavanlaisesti
 
-|Kokonaiskustannukset|Integraatiokustannukset|Säästöt integraatiosta|
+|Tietojärjestelmäluokka|Integraatiokustannukset|Säästöt integraatiosta|
 |---|---|---|---|
 |Suuret tietojärjestelmät|6 595 008 €|1 319 201 €|197 880 €|
 |Keskisuuret tietojärjestelmät| 3 553 075 €| 710 615 €| 142 123 €|
@@ -88,3 +87,7 @@ on vaikeaa arvioida:
 Avoimilla ja hyvin toimivilla rajapinnoilla on siis merkittävä vaikutus organisaatioiden toimintaan ja tehokkuuteen. Siksi niiden määrittely on tärkeää ja tarpeellista työtä.
 
 **Lähde:** Julkisen hallinnon tietohallinnon neuvottelukunta ([JUHTA:n kokousasiakirjat vuonna 2016 / 1. JUHTA:n kokous 17.2.2016 / Liite 3 C, Integraatioalustan rahoitushakemus](https://wiki.julkict.fi/julkict/juhta/juhta-n-kokousasiakirjat-vuonna-2016/1-juhta-n-kokous-17-2.2016/Liite%203%20C-%20Integraatioalustan%20rahoitushakemus.zip/view))
+
+[Why Software Is Eating The World](http://www.wsj.com/articles/SB10001424053111903480904576512250915629460)
+
+[Data Growth, Business Opportunities, and the IT Imperatives](http://www.emc.com/leadership/digital-universe/2014iview/executive-summary.htm)

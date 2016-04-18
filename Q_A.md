@@ -12,7 +12,7 @@ Avoin rajapinta ei suoraa tarkoita, että kaikkien tietojen tulisi automaattises
 
 ### Tarkoittaako avoimen rajapinnan määritelmä, että kenellä tahansa pitää käyttöoikeus avoimen rajapinnan tarjoamaan tietoon?
 
-Avoin rajapinta ei tarkoita suoraa, että siihen käyttöoikeus pitäisi olla kaikilla. Rajapinnan käyttöä voidaan hallita esimerkiksi API-avaimella (tunnistaa käyttäjän jollain tasolla tilastointitarkoituksessa) tai vaikkapa SSL:n yli käyttäjätunnuksella ja salasanalla. Usein rajapinta ja sen tietoturvallisuus erotetaan osittain tai kokonaan toisistaan. Esimerkiksi käyttäjien oikeuksia voidaan hallinnoida OAuth 2.0:lla tai jollain muulla teknologialla.
+Avoin rajapinta ei tarkoita suoraa, että siihen käyttöoikeus pitäisi olla kaikilla. Rajapinnan käyttöä voidaan hallita esimerkiksi API-avaimella (tunnistaa käyttäjän jollain tasolla tilastointitarkoituksessa) tai vaikkapa SSL:n yli käyttäjätunnuksella ja salasanalla. Usein rajapinta ja sen tietoturvallisuus erotetaan osittain tai kokonaan toisistaan. Esimerkiksi käyttäjien oikeuksia voidaan hallinnoida OAuth 2.0:lla tai jollain muulla teknologialla. Tyypillisesti avoimen rajapinnan käyttöoikeuksia hallitaan rajapintojen hallintaan (engl. API Management) tarkoitetun ohjelmiston avulla[^5].
 
 
 ### Mitä hyötyä määritelmästä on?
@@ -98,3 +98,5 @@ Julkisen hallinnon tietohallinnon neuvottelukunta ([JUHTA:n kokousasiakirjat vuo
 [^3]: [Data Growth, Business Opportunities, and the IT Imperatives](http://www.emc.com/leadership/digital-universe/2014iview/executive-summary.htm)
 
 [^4]: [The MDM Golden Record is Dead, Rest in Peace – Welcome Interpreted Interoperable Attributes](https://www.researchgate.net/publication/290446955_The_MDM_Golden_Record_is_Dead_Rest_in_Peace_-_Welcome_Interpreted_Interoperable_Attributes)
+
+[^5]: [API Management tools: How to find the one for you](http://www.developereconomics.com/api-management-tools-how-to-find-the-one-for-you/)

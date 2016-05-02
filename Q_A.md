@@ -8,7 +8,7 @@ Avoin rajapinta ei suoraa tarkoita, että kaikkien tietojen tulisi automaattises
 
 ![Tietojärjestelmissä oleva tieto vs. rajapinnan tarjoama tieto](/organisaation_tiedot_eri_tietojarjestelmissa.png)
 
-*Kuva 1. Kuvassa pinta-ala havainnollistaa tiedon määrää. OAPIt 1-4 käsittelevät organisaation digitaalisen tiedon eri osia. Osa organisaation tiedosta jää avoimien rajapintojen ulkopuolelle. Tyypillisesti tälläistä tietoa on esimerkiksi salassapidettävä tieto julkisella sektorilla ja liikesalaiduudet yrityksissä tai esimerkiksi [Henkilötietolain 22.4.1999/523](http://www.finlex.fi/fi/laki/ajantasa/1999/19990523) ja tulevan EU:n henkilötieto-asetuksen (engl. General Data Protection Regulation, GDPR) alla oleva tieto.*
+*Kuva 1. Kuvassa pinta-ala havainnollistaa tiedon määrää. OAPIt 1-4 käsittelevät organisaation digitaalisen tiedon eri osia. Osa organisaation tiedosta jää avoimien rajapintojen ulkopuolelle. Tyypillisesti tälläistä tietoa on esimerkiksi salassapidettävä tieto julkisella sektorilla ja liikesalaiduudet yrityksissä tai esimerkiksi [Henkilötietolain 22.4.1999/523](http://www.finlex.fi/fi/laki/ajantasa/1999/19990523) ja tulevan [EU:n henkilötieto-asetuksen (engl. General Data Protection Regulation, GDPR)](http://ec.europa.eu/justice/data-protection/reform/index_en.htm) alla oleva tieto.*
 
 ### Tarkoittaako avoimen rajapinnan määritelmä, että kenellä tahansa pitää käyttöoikeus avoimen rajapinnan tarjoamaan tietoon?
 

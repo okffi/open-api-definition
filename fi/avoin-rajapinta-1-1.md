@@ -1,4 +1,4 @@
-Versio: 1.1
+Versio: 1.1 (beta)
 
 Julkaistu: 9.5.2016
 
@@ -6,9 +6,9 @@ Julkaistu: 9.5.2016
 
 # Avoimen rajapinnan määritelmä
 
-Kaikki ohjelmistot siirtävät informaatiota ohjelmiston sisäisten ja ulkoisten ohjelmistorajapintojen läpi. Avoin rajapinta (engl. Open Application Programming Interface, Open API) on ohjelmistorajapinta, jonka kaikki ominaisuudet ovat sekä julkisia että niitä voi käyttää ilman rajoittavia ehtoja. Rajapintaa hyödyntävän sovelluksen voi esimerkiksi laatia ilman rajapinnan ohjelmistovalmistajan erillistä hyväksyntää tai pakollisia lisenssimaksuja.<sup>[1]</sup> Tämä edellyttää, että rajapintakuvaus ja siihen liittyvä dokumentaatio on avoimesti saatavilla. Ja että rajapintaa voi vapaasti käyttää esimerkiksi omien sovellusten sekä tekemiseksi että niiden testaamiseksi.
+Kaikki ohjelmistot siirtävät informaatiota ohjelmiston sisäisten ja ulkoisten ohjelmistorajapintojen läpi. Avoin rajapinta (engl. Open Application Programming Interface, Open API) on ohjelmistorajapinta, jonka kaikki ominaisuudet ovat sekä julkisia että niitä voi käyttää ilman rajoittavia ehtoja. Rajapintaa hyödyntävän sovelluksen voi esimerkiksi laatia ilman rajapinnan ohjelmistovalmistajan erillistä hyväksyntää tai pakollisia lisenssimaksuja.<sup>[1]</sup> Tämä edellyttää, että sekä rajapintakuvaus että siihen liittyvä dokumentaatio ovat avoimesti saatavilla. Sen lisäksi rajapintaa on voitava vapaasti käyttää esimerkiksi omien sovellusten sekä tekemiseksi että niiden testaamiseksi.
 
-Avoimen rajapinnan käyttö on maksutonta. Käyttäjän tarvitse kysyä lupaa rajapinnan haltijalta tai ilmoittaa etukäteen, mihin tarkoitukseen rajapintaa aikoo käyttää. Rajapintapalvelun julkisissa käyttöehdoissa voidaan määritellä, millä edellytyksillä (esimerkiksi palvelunestohyökkäysten torjumiseksi) rajapinnan käyttöä voidaan rajoittaa. 
+Avoimen rajapinnan käyttö on maksutonta. Käyttäjän ei tarvitse kysyä lupaa rajapinnan haltijalta tai ilmoittaa etukäteen, mihin tarkoitukseen rajapintaa aikoo käyttää. Rajapintapalvelun julkisissa käyttöehdoissa voidaan määritellä, millä edellytyksillä (esimerkiksi palvelunestohyökkäysten torjumiseksi) rajapinnan käyttöä voidaan rajoittaa erikoistapauksissa. 
 
 <i>Kommentti: Rajapinnan dokumentaatiosta ja testiaineistoista ei peritä maksua. Rajapinnan takana olevasta varsinaiseen tietosisältöön käsiksi pääsemisestä voidaan periä myös maksu, vaikka rajapinta olisi avoin.</i>
 
@@ -48,11 +48,11 @@ b. avoin pääsy testijärjestelmään, jossa on realistista tai autenttista dat
 
 c. testijärjestelmä on ladattavissa vapaasti omaan käyttöön itse asennettavaksi
 
-Avoimen rajapinnan kautta saatavan datan ei tarvitse olla avointa dataa<sup>[5]</sup>. Rajapinta voi olla avoin, vaikka tuotantojärjestelmä olisi kokonaan irti Internetistä ja pääsy siihen vain hyvin rajatulla joukolla. Jos rajapinta on avoin, mutta pääsy sen päässä olevaan datasisältöön on rajoitettu, tarjolla tulee olla avoimesti verkossa käytettävissä oleva testiympäristö.
+Avoimen rajapinnan kautta saatavan datan ei tarvitse olla avointa dataa<sup>[5]</sup>. Rajapinta voi olla avoin, vaikka siihen liitetty tuotantojärjestelmä olisi kokonaan irti Internetistä ja siihen olisi pääsy vain hyvin rajatulla joukolla. Jos rajapinta on avoin, mutta pääsy sen päässä olevaan datasisältöön on rajoitettu, tarjolla tulee olla avoimesti verkossa käytettävissä oleva testiympäristö.
 
-<i>Kommentti: Jos järjestelmään on tarjolla avoin rajapinta, ei se tarkoita, että tuotantojärjestelmään tai sen sisältämään tietoon pääsisi kuka vain käsiksi. Esimerkiksi potilastietojärjestelmään voi olla avoin rajapinta, mutta rajapinnan takana olevat potilastiedot eivät ole avoimia. Avoimen rajapinnan kautta voidaan myös tarjota tiettyä henkilöä koskevia tietoja vain tämän omalla suostumuksella joko hänelle pelkästään tai hänen hyväksymälle taholle (engl. my data / suomeksi omadata). Rajapinta voi tarjota myös erilaisia pääsy- ja käyttöoikeuksia eri käyttäjille.</i>
+<i>Kommentti: Jos järjestelmään on tarjolla avoin rajapinta, ei se tarkoita, että tuotantojärjestelmään tai sen sisältämään tietoon pääsisi kuka vain käsiksi. Esimerkiksi potilastietojärjestelmään voi olla avoin rajapinta, mutta rajapinnan takana olevat potilastiedot eivät ole avoimia. Avoimen rajapinnan kautta voidaan myös tarjota tiettyä henkilöä koskevia tietoja vain tämän omalla suostumuksella joko hänelle pelkästään tai hänen hyväksymälle taholle (engl. my data / suomeksi omadata). Rajapinta voi tarjota myös erilaisia pääsy- ja käyttöoikeuksia eri käyttäjille ja käyttäjä voidaan tunnistaa usealla eri tavalla tai näiden yhdistelmällä.</i>
 
-Rajapinnan avoimuus mahdollistaa myös sen, että kuka tahansa voi tehdä kilpailevan järjestelmän, joka toteuttaa samat rajapinnat ja on näin yhteensopiva kaikkien rajapintaa hyödyntävien sovellusten kanssa.
+Rajapinnan avoimuus mahdollistaa myös sen, että kuka tahansa voi tehdä kilpailevan tietojärjestelmän, joka toteuttaa samat rajapinnat ja on näin yhteensopiva kaikkien rajapintaa hyödyntävien sovellusten kanssa.
 
 ## Tilaajan hallitsema rajapinta
 

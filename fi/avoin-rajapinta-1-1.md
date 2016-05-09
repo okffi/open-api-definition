@@ -19,7 +19,9 @@ Ohjelmointirajapinta määrittelee, miten ohjelmisto tarjoaa tietoja tai palvelu
 <i>Kommentti: Tämän dokumentin kannalta mielenkiintoiset rajapinnat ovat yleensä Internetin yli käytettäviä Web Service -rajapintoja. Samat periaatteet pätevät kuitenkin muihinkin toteutuksiin. Avoimen rajapinnan määritelmä pyrkii olemaan mahdollisimman riippumaton sen teknologisista toteuttamistavasta.</i>
 
 Rajapinta voi olla: 
+
 **1) datarajapinta** jonka kautta saa luettua palvelun sisältämän datan toisiin järjestelmiin. 
+
 **2) toiminnallinen rajapinta**, joka tarjoaa esimerkiksi laskenta-algoritmeja tai mahdollisuuden käsitellä ohjelmiston sisältämiä tietoja eri tavoin rajapinnan kautta. Jos tietojärjestelmässä tai organisaatiolla on useita erilaisia rajapintoja, on syytä täsmentää, mitkä niistä ovat avoimia.
 
 <i>Kommentti: Esimerkki datarajapinnasta on kansalaisaloite.fi:n rajapinta<sup>[2]</sup>, joka kertoo kansalaisalotteiden tietoja. Esimerkkejä toiminnallisista rajapinnoista ovat muun muassa Helsingin seudun liikenteen reittioppaan rajapinta<sup>[3]</sup>, joka tarjoaa reititysalgoritmin tai kansainvälinen Open311-rajapintastandardi<sup>[4]</sup>, jota tukeviin kaupunkien palautejärjestelmiin voi tehdä vikailmoituksia.</i>

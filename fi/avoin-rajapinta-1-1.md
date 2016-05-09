@@ -18,9 +18,9 @@ Ohjelmointirajapinta määrittelee, miten ohjelmisto tarjoaa tietoja tai palvelu
 
 <i>Kommentti: Tämän dokumentin kannalta mielenkiintoiset rajapinnat ovat yleensä Internetin yli käytettäviä Web Service -rajapintoja. Samat periaatteet pätevät kuitenkin muihinkin toteutuksiin. Avoimen rajapinnan määritelmä pyrkii olemaan mahdollisimman riippumaton sen teknologisista toteuttamistavasta.</i>
 
-Rajapinta voi olla: 
+**Rajapinta voi olla:** 
 
-**1) datarajapinta** jonka kautta saa luettua palvelun sisältämän datan toisiin järjestelmiin. 
+**1) datarajapinta**, jonka kautta saa luettua palvelun sisältämän datan toisiin järjestelmiin. 
 
 **2) toiminnallinen rajapinta**, joka tarjoaa esimerkiksi laskenta-algoritmeja tai mahdollisuuden käsitellä ohjelmiston sisältämiä tietoja eri tavoin rajapinnan kautta. Jos tietojärjestelmässä tai organisaatiolla on useita erilaisia rajapintoja, on syytä täsmentää, mitkä niistä ovat avoimia.
 
@@ -42,11 +42,11 @@ Jotta rajapinnan voi sanoa olevan avoin, sen täytyy täyttää seuraavat ehdot:
 
 **3) Testattava:** Rajapinnan tulee olla testattavissa. Testausta varten on tarjolla on vähintään testiaineisto. Testattavuuden voi toteuttaa seuraavilla tavoilla:
 
-1. avoin pääsy tuotantojärjestelmään, jota käyttäen palveluun voi integroitua, tai
+a. avoin pääsy tuotantojärjestelmään, jota käyttäen palveluun voi integroitua, tai
 
-2. avoin pääsy testijärjestelmään, jossa on realistista tai autenttista dataa, tai
+b. avoin pääsy testijärjestelmään, jossa on realistista tai autenttista dataa, tai
 
-3. testijärjestelmä on ladattavissa vapaasti omaan käyttöön itse asennettavaksi
+c. testijärjestelmä on ladattavissa vapaasti omaan käyttöön itse asennettavaksi
 
 Avoimen rajapinnan kautta saatavan datan ei tarvitse olla avointa dataa<sup>[5]</sup>. Rajapinta voi olla avoin, vaikka tuotantojärjestelmä olisi kokonaan irti Internetistä ja pääsy siihen vain hyvin rajatulla joukolla. Jos rajapinta on avoin, mutta pääsy sen päässä olevaan datasisältöön on rajoitettu, tarjolla tulee olla avoimesti verkossa käytettävissä oleva testiympäristö.
 

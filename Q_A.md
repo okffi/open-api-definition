@@ -2,6 +2,9 @@
 layout: page
 title: Usein kysyttyjä kysymyksiä ja vastauksia
 ---
+### Miksi ette ota teknisempää lähestymistapaa ohjelmistorajapintoihin?
+Ohjelmistorajapintoja saa luotua monella valmisohjelmistolla jopa 15 minuutissa. Varsinkin Webservices -ohjelmistorajapintoja saa tehtyä helposti. Ohjelmistörajapintojen käyttäjiä ovat lähinnä sovelluskehittäjät, jotka rakentavat niiden varaan jotain. Tässä määritelmässä on enemmänkin tarkoitus tukea hankintatoimea uusissa tietojärjestelmähankinnoissa.
+
 ### Tarkoittaako määritelmä, että kaikki organisaation digitaalinen tieto on avattava avoimeksi dataksi?
 
 Avoin rajapinta ei suoraa tarkoita, että kaikkien tietojen tulisi automaattisesti olla avoimia. Usein rajapinta kattaa pienen osajoukon organisaation kaikesta digitaalisessa muodossa (erilaisissa tietokannoissa) olevasta informaatiosta. Toisin sanoen rajapinnan kautta on usein pääsy osaan tiedoista, ei kaikkeen tietoon. Asiaa havainnollistavassa esimerkissä organisaatiolla on 4 erilaista avointa rajapintaa (engl. Open Application Protocol Interface, OAPI), jotka kattavat eri suuruiset ja eri osat organisaation digitaalisessa muodossa olevaa informaatiota. Vaikka kaikki rajapinnat ovat avoimia, jää niiden ulkopuolelle merkittävä osa organisaation digitaalisesta tiedosta. Tässä esimerkissä (kuva 1) avoimet rajapinnat 1-4 käsittelevät eri tietoa, mutta teoriassa osa tiedoista voisi myös olla jollain tavalla päällekkäisiä (käsittelevät osittain samaa tietoa). Usein organisaatiot keskittyvät ydintiedonhallintaan (engl. Master Data Management, MDM), jolloin organisaatiosta tunnistetaan olennainen digitaalinen tieto.

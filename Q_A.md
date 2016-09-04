@@ -3,7 +3,7 @@ layout: page
 title: Usein kysyttyjä kysymyksiä ja vastauksia
 ---
 ### Miksi ette ota teknisempää lähestymistapaa ohjelmistorajapintoihin?
-Ohjelmistorajapintoja saa luotua monella valmisohjelmistolla jopa 15 minuutissa. Varsinkin Webservices -ohjelmistorajapintoja saa tehtyä helposti. Ohjelmistörajapintojen käyttäjiä ovat lähinnä sovelluskehittäjät, jotka rakentavat niiden varaan jotain. Tässä määritelmässä on enemmänkin tarkoitus tukea hankintatoimea uusissa tietojärjestelmähankinnoissa.
+Ohjelmistorajapintoja saa luotua monella valmisohjelmistolla jopa 15 minuutissa. Varsinkin Web services -ohjelmistorajapintoja saa tehtyä melko helposti ja nopeasti esimerkiksi erilaisilla integraatiotuotteilla (esim Apache Service Mix). Ohjelmistorajapintojen käyttäjiä ovat lähinnä sovelluskehittäjät, jotka rakentavat niiden varaan jotain. Tässä määritelmässä on enemmänkin tarkoitus tukea hankintatoimea uusissa tietojärjestelmähankinnoissa.
 
 ### Tarkoittaako määritelmä, että kaikki organisaation digitaalinen tieto on avattava avoimeksi dataksi?
 

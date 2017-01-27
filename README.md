@@ -10,6 +10,9 @@ Mahdollisuuksien mukaan suositus pyritään saamaan mukaan myös JHS-työhön ja
 
 Version 1.0 kirjoittamiseen ja kommentointiin ovat osallistuneet lukuisien anonyymien kommentaattoreiden lisäksi: Antti Poikola, Otso Kivekäs, Joni Kettunen, Teemu Polo, Sami Laine, Jukka Aaltonen, Jarkko Moilanen, Jaakko Korhonen, Mika Honkanen, Otto Kekäläinen ja Martin von Willebrand.
 
+Määritelmän laadittiin avoimessa Google Docsissa, joka löytyy edelleen osoitteesta:
+- http://okf.fi/avoin_ohjelmistorajapinta
+Siellä on myös taustoja ja alkuperäistä keskustelua aiheesta.
 
 ## Määritelmän tukijat
 

@@ -17,7 +17,7 @@ lukuisien anonyymien kommentaattoreiden lisäksi:
 
 Antti Poikola, Otso Kivekäs, Joni Kettunen, Teemu Polo, Sami Laine, Jukka Aaltonen, Jarkko Moilanen, Jaakko Korhonen, Mika Honkanen, Otto Kekäläinen ja Martin von Willebrand.
 
-Alkuperäinen määritelmän laadintadokumentti kommentteineen on täällä: http://okf.fi/avoin_rajapinta
+Alkuperäinen määritelmän laadintadokumentti kommentteineen on täällä: [http://okf.fi/avoin_rajapinta](http://okf.fi/avoin_rajapinta)
 
 ### Taustatietoa
 Määritelmää ylläpitää Open Knowledge Finlandin alla toimiva [Open API –työryhmä](http://fi.okfn.org/wg/open-api/)

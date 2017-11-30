@@ -8,8 +8,6 @@ Julkaistu: 11.10.2014
 
 Avoin rajapinta on rajapinta, jonka kaikki ominaisuudet ovat julkisia ja jota voi käyttää ilman rajoittavia ehtoja (esimerkiksi laatia rajapintaa hyödyntävän ohjelman ilman rajapinnan valmistajan erillistä hyväksyntää tai pakollisia lisenssimaksuja).<sup>[1]</sup> Tämä edellyttää, että rajapintakuvaus ja sen dokumentaatio on avoimesti saatavilla ja että rajapintaa voi vapaasti käyttää esimerkiksi omien sovellusten tekemiseksi ja niiden testaamiseksi. Avoimen rajapinnan käyttö on maksutonta, eikä käyttäjän tarvitse kysyä lupaa rajapinnan haltijalta tai kertoa etukäteen mihin tarkoitukseen aikoo rajapintaa käyttää.
 
-<i>Kommentti: Rajapinnan dokumentaatiosta ja testiaineistoista ei peritä maksua, mutta palvelun varsinaiseen tietosisältöön käsiksi pääsemisestä voidaan periä myös maksu, vaikka rajapinta olisi avoin.</i>
-
 ## Rajapinta
 
 Ohjelmointirajapinta (Application programming interface, API) määrittelee, miten ohjelmisto tarjoaa tietoja tai palveluita sovelluksille tai muille tietojärjestelmille.
